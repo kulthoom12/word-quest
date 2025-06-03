@@ -1,0 +1,11 @@
+#instructions {
+  display: none;
+}
+
+body {
+    font-family: 'Baloo 2', cursive;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    text-align: center;
+}
+
