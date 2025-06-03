@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
     <title>Word Quest</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <h1> Word Quest</h1>
     <button id="start">Start Game</button>
-    
+
     <!-- this blocks the instructions to show on the front page -->
 
     <button id="Instructions-btn">How to Play</button>
@@ -18,10 +20,21 @@
         <p>Guess the Scrambled word shown</p>
         <p>Use the hints providede if needed</p>
         <p>Submit your answer to see if your correct</p>
-         <!-- will change if i am worng -->
+        <!-- will change if i am worng -->
         <p>you have 60 seconds per game</p>
+    </div>
 
-        
+    <!-- Game Container -->
+    <div id="game">
+        <div id="status">
+            <span id="timer">Timer 60s </span>
+            <span id="score">Score:0 </span>
+        </div>
+        <div id="scrambled" class="letters"></div>
+
+
+
+    </div>
 
 
 
@@ -32,7 +45,8 @@
 
 
 
-    
+
     <script src="assets/js/index.js"></script>
 </body>
+
 </html>
