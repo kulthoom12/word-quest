@@ -39,3 +39,28 @@
     - [Content](#content)
     - [Media](#media)
     - [Credits](#credits)
+
+
+I created this game as a fun way to see how quickly you can guess words from scrambled letters.  On the main screen, you'll find a Start Game button to start playing and a How to Play button to read the instructions first.
+
+ Each round allows you 60 seconds to guess the word.  If you find yourself stuck, you can use up to three hints. Simply input your answer and hit submit if you're correct, you'll earn points and move on to the next word.
+
+ It's an easy and entertaining game to keep your mind working!
+ 
+A live version of the project can be accessed here: [Word Quest](kulthoom12.github.io/Word-Quest/)
+
+## UX
+
+### New User Stories
+
+- As a new user I would like to see a clear title so I know what the game is.
+- As a new user I would like to see a Start Game button so I can begin playing easily.
+- As a new user I would like to see an Instructions button to understand how to play.
+- As a new user I would like to see scrambled letters and a place to type my guess.
+- As a new user I would like to see a timer and score so I can track my progress.
+- As a new user I would like to see a hint button to help me if I get stuck.
+- As a new user I would like to see a restart button in case I want to play again.
+
+
+
+
