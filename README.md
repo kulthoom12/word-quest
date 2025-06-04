@@ -39,5 +39,3 @@
     - [Content](#content)
     - [Media](#media)
     - [Credits](#credits)
-
-
