@@ -10,17 +10,7 @@
     - [Desktop](#desktop)
   - [Features](#features)
     - [Existing Features](#existing-features)
-    - [Navbar](#navbar)
-    - [Footer](#footer)
     - [Home Page](#home-page)
-      - [Introduction Section](#introduction-section)
-      - [Service Section](#service-section)
-      - [Testimonials Section](#testimonials-section)
-      - [Video Section](#video-section)
-    - [Packages Page](#packages-page)
-    - [Book Now Page](#book-now-page)
-    - [404 Error Page](#404-error-page)
-    - [Booking Success Page](#booking-success-page)
     - [Future Features](#future-features)
   - [Deployment](#deployment)
     - [GitHub Pages](#github-pages)
@@ -60,6 +50,20 @@ A live version of the project can be accessed here: [Word Quest](kulthoom12.gith
 - As a new user I would like to see a timer and score so I can track my progress.
 - As a new user I would like to see a hint button to help me if I get stuck.
 - As a new user I would like to see a restart button in case I want to play again.
+
+### Existing Users
+
+- As an existing user I would like hints that help without giving too much away.
+- As an existing user I would like the game to feel smooth and easy every time.
+- As an existing user I would like to enjoy the challenge and improve my guessing skills.
+
+### Typography 
+
+**[Comic Neue](https://fonts.google.com/specimen/Chewy)**: was selected for its clean, rounded letters and friendly design. It’s easy to read, even on smaller screens, and brings a casual feel that doesn’t distract from gameplay. As a secondary font, it supports clarity and usability while keeping the visual style fun and accessible.
+
+**[Chewy](https://fonts.google.com/specimen/Comic+Neue)**: was chosen as the main display font because of its bold, playful, and cartoon-like appearance. It adds a fun and energetic vibe to the game, making the interface feel more engaging and appealing. This font helps set a light-hearted tone right from the start, which matches the purpose of the game—to entertain and challenge in a relaxed way.
+
+### Color Scheme
 
 
 
