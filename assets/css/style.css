@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+:root {
+  
+  --font-primary: 'Comic Neue', sans-serif;  
+  --font-secondary: 'Chewy', cursive;
+  --background-gradient: #0f2027; 
+  --button-color: #32cd32;
+  --button-hover: #28a428;
+  --highlight-color: #FFD700;
+  --box-border: #32cd32;
+  
+}
+
 #instructions {
   display: none;
 }
 
 body {
     font-family: 'Comic Nene', sans-serif;
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-    color: #fff;
+    background-color: #0f2027;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -15,6 +26,14 @@ body {
     justify-content: center;
 }
 
+h1, h2 {
+  font-family: 'chewy', cursive;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+  
+  
+} 
 
 
 
