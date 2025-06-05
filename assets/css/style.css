@@ -4,12 +4,12 @@
   
   --font-primary: 'Comic Neue', sans-serif;  
   --font-secondary: 'Chewy', cursive;
-  --background-gradient: #0f2027; 
+  --background-color: #0f2027; 
   --button-color: #32cd32;
   --button-hover: #28a428;
   --highlight-color: #FFD700;
   --box-border: #32cd32;
-  
+
 }
 
 #instructions {
@@ -17,7 +17,7 @@
 }
 
 body {
-    font-family: 'Comic Nene', sans-serif;
+    font-family: var(--font-primary);
     background-color: #0f2027;
     text-align: center;
     display: flex;
@@ -27,13 +27,49 @@ body {
 }
 
 h1, h2 {
-  font-family: 'chewy', cursive;
+  font-family: var(--font-secondary);
   font-weight: bold;
   margin-bottom: 20px;
-  
-  
-  
+  color: white;
 } 
+
+button#start {
+  background-color: var(--button-color);
+  color: white;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+
+button#instructions-btn{
+  background-color: var(--button-color);
+  color: white;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+
+button#submit {
+background-color: var(--button-color);
+color: white;
+margin: 10px 5px;
+cursor: pointer;
+}
+
+button#restart {
+  background-color: var(--button-color);
+  color: white;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+
+button#hint {
+background-color: var(--button-color);
+color: white;
+margin: 10px 5px;
+cursor: pointer;
+}
+
+
+
 
 
 
