@@ -1,34 +1,23 @@
-- [Word Quest](#Word-Quest)
-  - [UX](#ux)
-    - [New User Stories](#new-user-stories)
-    - [Existing Users](#existing-users)
-    - [Typography](#typography)
-    - [Color Scheme](#color-scheme)
-  - [Wireframes](#wireframes)
-    - [Mobile](#mobile)
-    - [Tablet](#tablet)
-    - [Desktop](#desktop)
-  - [Features](#features)
-    - [Existing Features](#existing-features)
-    - [Home Page](#home-page)
-    - [Future Features](#future-features)
-  - [Deployment](#deployment)
-    - [GitHub Pages](#github-pages)
-    - [Forking the GitHub Repository](#forking-the-github-repository)
-    - [Making a Local Clone](#making-a-local-clone)
-  - [Testing](#testing)
-    - [HTML Testing](#html-testing)
-    - [CSS Testing](#css-testing)
-    - [Responsiveness](#responsiveness)
-    - [Lighthouse Audit](#lighthouse-audit)
-    - [User Interactions](#user-interactions)
-    - [Browser Compatibility](#browser-compatibility)
-    - [User Story Testing](#user-story-testing)
-    - [Bugs](#bugs)
-  - [Tools and Technologies Used](#tools-and-technologies-used)
-    - [Content](#content)
-    - [Media](#media)
-    - [Credits](#credits)
+- [UX](#ux)
+  - [New User Stories](#new-user-stories)
+  - [Existing Users](#existing-users)
+  - [Typography](#typography)
+  - [Color Scheme](#color-scheme)
+- [Wireframes](#wireframes)
+  - [Mobile](#mobile)
+  - [Tablet](#tablet)
+  - [Desktop](#desktop)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+  - [Future Features](#future-features)
+- [Deployment](#deployment)
+  - [GitHub Pages](#github-pages)
+  - [Forking the GitHub Repository](#forking-the-github-repository)
+  - [Making a Local Clone](#making-a-local-clone)
+- [Tools and Technologies Used](#tools-and-technologies-used)
+  - [Content](#content)
+  - [Media](#media)
+  - [Credits](#credits)
 
 
 I created this game as a fun way to see how quickly you can guess words from scrambled letters.  On the main screen, you'll find a Start Game button to start playing and a How to Play button to read the instructions first.
@@ -65,6 +54,36 @@ A live version of the project can be accessed here: [Word Quest](kulthoom12.gith
 
 ### Color Scheme
 
+| Colour     | Hex      | Reason                                                      |
+|------------|----------|-------------------------------------------------------------|
+| Deep Teal  | #0f2027  | This dark background feels calm and helps other colours stand out. |
+| Lime Green | #32cd32  | Bright green that catches your eye and makes the game feel lively.  |
+| Dark Green | #28a428  | Slightly darker green used for hover effects to show buttons are clickable. |
+| Gold       | #FFD700  | Shiny gold used to highlight important things like scores or hints.  |
 
+<img src="assets/images/color.png">
+
+## Wireframes
+
+### Mobile 
+### Tablet
+### Desktop 
+
+## Features
+
+### Existing Features
+### Future Features
+
+## Deployment
+
+### GitHub Pages
+### Forking the GitHub Repository
+### Making a Local Clone
+
+## Tools and Technologies Used
+
+### Content
+### Media
+### Credits
 
 
