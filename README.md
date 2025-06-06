@@ -54,12 +54,12 @@ A live version of the project can be accessed here: [Word Quest](kulthoom12.gith
 
 ### Color Scheme
 
-| Colour     | Hex      | Reason                                                      |
-|------------|----------|-------------------------------------------------------------|
-| Deep Teal  | #0f2027  | This dark background feels calm and helps other colours stand out. |
-| Lime Green | #32cd32  | Bright green that catches your eye and makes the game feel lively.  |
-| Dark Green | #28a428  | Slightly darker green used for hover effects to show buttons are clickable. |
-| Gold       | #FFD700  | Shiny gold used to highlight important things like scores or hints.  |
+| Colour     | Hex     | Reason                                                                      |
+| ---------- | ------- | --------------------------------------------------------------------------- |
+| Deep Teal  | #0f2027 | This dark background feels calm and helps other colours stand out.          |
+| Lime Green | #32cd32 | Bright green that catches your eye and makes the game feel lively.          |
+| Dark Green | #28a428 | Slightly darker green used for hover effects to show buttons are clickable. |
+| Gold       | #FFD700 | Shiny gold used to highlight important things like scores or hints.         |
 
 <img src="assets/images/color.png">
 
@@ -72,7 +72,22 @@ A live version of the project can be accessed here: [Word Quest](kulthoom12.gith
 ## Features
 
 ### Existing Features
+
+The **Word Quest** game is designed to be fun, easy to use, and enjoyable on any device.
+
+The look of the game stays the same throughout, with a dark teal background that makes the bright green buttons and gold highlights stand out. This helps players know where to click and what to focus on.
+
+Everything you need to play is clearly laid out — the scrambled word, timer, score, and buttons for submitting, getting a hint, or restarting the game.
+
+The game also works well on phones, tablets, and computers, so you can play wherever you like without anything looking messy or out of place.
+
 ### Future Features
+
+- **Difficulty Levels**  
+  Players will be able to choose between easy, medium, and hard modes to match their skill level.
+
+- **High Score Tracking**  
+  The game will keep track of top scores so players can aim to beat their personal best.
 
 ## Deployment
 
