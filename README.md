@@ -92,8 +92,39 @@ The game also works well on phones, tablets, and computers, so you can play wher
 ## Deployment
 
 ### GitHub Pages
+
+To deploy the website, follow these steps:
+
+1. Log in to [GitHub](https://github.com/).
+2. Go to the repository: **[kulthoom12/word-quest](https://github.com/kulthoom12/word-quest)**.
+3. Click on the **Settings** tab.
+4. Click the **Code and automation** section and then click **Pages**.
+5. Under **Build and deployment**, select the **main** branch.
+6. Click **Save**.
+
+The **word-quest** website is hosted on GitHub Pages. You can view the live website by clicking [here](https://github.com/kulthoom12/word-quest).
+
 ### Forking the GitHub Repository
+
+To create a copy of the repository in your own GitHub account:
+
+1. Log in to [GitHub](https://github.com/).
+2. Search for **[kulthoom12/word-quest](https://github.com/kulthoom12/word-quest)** repository.
+3. Click on the **Fork** button at the top-right corner and click select **Create a new fork**.
+4. Now, the repository will be copied to your GitHub account, and you can make changes without affecting the original one.
+
 ### Making a Local Clone
+
+To download the project to your computer:
+
+1. Log in to [GitHub](https://github.com/).
+2. Go to **[word-quest](https://github.com/kulthoom12/word-quest)**.
+3. Click on the **Code** button and select **Clone**.
+4. Copy the repository URL.
+5. Open your terminal or Git Bash in your preferred code editor.
+6. Type this command and hit Enter:
+   ```bash
+   git clone https://github.com/kulthoom12/word-quest
 
 ## Tools and Technologies Used
 
