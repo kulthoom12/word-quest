@@ -128,22 +128,21 @@ To download the project to your computer:
 
 ## Tools and Technologies Used
 
-| Source                      | Link                                                                                                      |
-| --------------------------- | --------------------------------------------------------------------------------------------------------- |
-| Word Guessing Game Tutorial | [YouTube - Word Guessing Game](https://www.youtube.com/watch?v=JYVycJ2CXiI)                               |
-| JavaScript Crash Course     | [YouTube - Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk)                                             |
-| JavaScript Full Course      | [YouTube - Bro Code](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv) |
-| JavaScript Game Tutorial    | [YouTube - Ali Aslan](https://www.youtube.com/watch?v=2wJKJRa9ncI)                                        |
-| Online Learning Platform    | [Code Institute](https://learn.codeinstitute.net/dashboard)                                               |
-| Fonts                       | [Google Fonts](https://fonts.google.com/)                                                                 |
-| Color Palette Generator     | [Colormind](http://colormind.io/)                                                                         |
-| Developer Tools             | [Chrome DevTools](https://developer.chrome.com/docs/)                                                     |
+| Source | Link |
+|---------|------|
+| Word Guessing Game Tutorial | [YouTube - Word Guessing Game](https://www.youtube.com/watch?v=JYVycJ2CXiI) |
+| JavaScript Crash Course | [YouTube - Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk) |
+|JavaScript Full Course | [YouTube - Bro Code](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv) |
+| JavaScript Game Tutorial | [YouTube - Ali Aslan](https://www.youtube.com/watch?v=2wJKJRa9ncI) |
+| Online Learning Platform | [Code Institute](https://learn.codeinstitute.net/dashboard) |
+| Fonts | [Google Fonts](https://fonts.google.com/) |
+| Color Palette Generator | [Colormind](http://colormind.io/) |
+| Developer Tools | [Chrome DevTools](https://developer.chrome.com/docs/) |
 
 
 ### Content
 
 ### Media
-
 
 ### Credits
 

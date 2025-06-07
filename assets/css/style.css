@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 :root {
-  
-  --font-primary: 'Comic Neue', sans-serif;  
+
+  --font-primary: 'Comic Neue', sans-serif;
   --font-secondary: 'Chewy', cursive;
-  --background-color: #0f2027; 
+  --background-color: #0f2027;
   --button-color: #32cd32;
   --button-hover: #28a428;
   --highlight-color: #FFD700;
@@ -17,41 +17,44 @@
 }
 
 body {
-    font-family: var(--font-primary);
-    background-color: #0f2027;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  font-family: var(--font-primary);
+  background-color: var(--background-color);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-h1, h2 {
+/* Headings */
+
+h1,
+h2 {
   font-family: var(--font-secondary);
   font-weight: bold;
   margin-bottom: 20px;
   color: white;
-} 
-
+}
+/* Start Button */
 button#start {
   background-color: var(--button-color);
   color: white;
   margin: 10px 5px;
   cursor: pointer;
 }
-
-button#instructions-btn{
+/* Instruction Button */
+button#instructions-btn {
   background-color: var(--button-color);
   color: white;
   margin: 10px 5px;
   cursor: pointer;
 }
-
+/* Submit Button */
 button#submit {
-background-color: var(--button-color);
-color: white;
-margin: 10px 5px;
-cursor: pointer;
+  background-color: var(--button-color);
+  color: white;
+  margin: 10px 5px;
+  cursor: pointer;
 }
 
 button#restart {
@@ -60,16 +63,10 @@ button#restart {
   margin: 10px 5px;
   cursor: pointer;
 }
-
+/* Hint Button */
 button#hint {
-background-color: var(--button-color);
-color: white;
-margin: 10px 5px;
-cursor: pointer;
+  background-color: var(--button-color);
+  color: white;
+  margin: 10px 5px;
+  cursor: pointer;
 }
-
-
-
-
-
-

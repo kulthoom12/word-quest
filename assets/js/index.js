@@ -70,3 +70,42 @@ function displayWord() {
 			word.innerHTML += currentWord[i] + " ";
 		} else word.innerHTML += "_ ";
 }
+// Starts the game
+
+function startGame(){
+  startContainer.style.display = "none"
+  gameContainer.style.display = "block"
+  message.textContent = ""
+  input.value = ""
+  score = 0
+  timeLeft = 60
+  hintsUsed = 0
+
+  scoreDisplay.textContent = "Score: " + score
+  timerDisplay.textContent = "Time: " + timeLeft;
+
+  currentWord = words[Math.floor(Math.random()*words.length)]
+  scrambledLetters = shuffleWord(currentWord)
+  revealedLetters = []
+
+  for(let i = 0; i < currentWord.length; i++){
+    revealedLetters.push(false)
+  }
+
+  displayScrambled()
+  displayWord()
+
+  input.disabled = false
+  submitBtn.disabled = false;
+  hintBtn.disabled = false
+
+  clearInterval(timer)
+
+  timer = setInterval(function(){
+    timeLeft = timeLeft - 1
+    timerDisplay.textContent = "Time: " + timeLeft
+    if(timeLeft == 0){
+      endGame("Time's up!")
+    }
+  },1000)
+}
