@@ -35,6 +35,7 @@ h2 {
   margin-bottom: 20px;
   color: white;
 }
+
 /* Start Button */
 button#start {
   background-color: var(--button-color);
@@ -42,6 +43,7 @@ button#start {
   margin: 10px 5px;
   cursor: pointer;
 }
+
 /* Instruction Button */
 button#instructions-btn {
   background-color: var(--button-color);
@@ -49,6 +51,7 @@ button#instructions-btn {
   margin: 10px 5px;
   cursor: pointer;
 }
+
 /* Submit Button */
 button#submit {
   background-color: var(--button-color);
@@ -63,6 +66,7 @@ button#restart {
   margin: 10px 5px;
   cursor: pointer;
 }
+
 /* Hint Button */
 button#hint {
   background-color: var(--button-color);

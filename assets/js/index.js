@@ -57,55 +57,51 @@ function displayScrambled() {
 	scrambled.textContent = scrambledLetters.join(" ");
 }
 
-// shows where the correct letter is and blank for the others. 
+// shows where the correct letter is and blank for the others.
 
 function displayWord() {
 	word.innerHTML = "";
-	for (
-		let i = 0;
-		i < currentWord.length;
-		i++ 
-	)
+	for (let i = 0; i < currentWord.length; i++)
 		if (revealedLetters[i]) {
 			word.innerHTML += currentWord[i] + " ";
 		} else word.innerHTML += "_ ";
 }
 // Starts the game
 
-function startGame(){
-  startContainer.style.display = "none"
-  gameContainer.style.display = "block"
-  message.textContent = ""
-  input.value = ""
-  score = 0
-  timeLeft = 60
-  hintsUsed = 0
+function startGame() {
+	startContainer.style.display = "none";
+	gameContainer.style.display = "block";
+	message.textContent = "";
+	input.value = "";
+	score = 0;
+	timeLeft = 60;
+	hintsUsed = 0;
 
-  scoreDisplay.textContent = "Score: " + score
-  timerDisplay.textContent = "Time: " + timeLeft;
+	scoreDisplay.textContent = "Score: " + score;
+	timerDisplay.textContent = "Time: " + timeLeft;
 
-  currentWord = words[Math.floor(Math.random()*words.length)]
-  scrambledLetters = shuffleWord(currentWord)
-  revealedLetters = []
+	currentWord = words[Math.floor(Math.random() * words.length)];
+	scrambledLetters = shuffleWord(currentWord);
+	revealedLetters = [];
 
-  for(let i = 0; i < currentWord.length; i++){
-    revealedLetters.push(false)
-  }
+	for (let i = 0; i < currentWord.length; i++) {
+		revealedLetters.push(false);
+	}
 
-  displayScrambled()
-  displayWord()
+	displayScrambled();
+	displayWord();
 
-  input.disabled = false
-  submitBtn.disabled = false;
-  hintBtn.disabled = false
+	input.disabled = false;
+	submitBtn.disabled = false;
+	hintBtn.disabled = false;
 
-  clearInterval(timer)
+	clearInterval(timer);
 
-  timer = setInterval(function(){
-    timeLeft = timeLeft - 1
-    timerDisplay.textContent = "Time: " + timeLeft
-    if(timeLeft == 0){
-      endGame("Time's up!")
-    }
-  },1000)
+	timer = setInterval(function () {
+		timeLeft = timeLeft - 1;
+		timerDisplay.textContent = "Time: " + timeLeft;
+		if (timeLeft == 0) {
+			endGame("Time's up!");
+		}
+	}, 1000);
 }

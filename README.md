@@ -1,23 +1,28 @@
-- [UX](#ux)
-  - [New User Stories](#new-user-stories)
-  - [Existing Users](#existing-users)
-  - [Typography](#typography)
-  - [Color Scheme](#color-scheme)
-- [Wireframes](#wireframes)
-  - [Mobile](#mobile)
-  - [Tablet](#tablet)
-  - [Desktop](#desktop)
-- [Features](#features)
-  - [Existing Features](#existing-features)
-  - [Future Features](#future-features)
-- [Deployment](#deployment)
-  - [GitHub Pages](#github-pages)
-  - [Forking the GitHub Repository](#forking-the-github-repository)
-  - [Making a Local Clone](#making-a-local-clone)
-- [Tools and Technologies Used](#tools-and-technologies-used)
-  - [Content](#content)
-  - [Media](#media)
-  - [Credits](#credits)
+# Word Quest
+
+<img src="">
+
+- [Word Quest](#word-quest)
+  - [UX](#ux)
+    - [New User Stories](#new-user-stories)
+    - [Existing Users](#existing-users)
+    - [Typography](#typography)
+    - [Color Scheme](#color-scheme)
+  - [Wireframes](#wireframes)
+    - [Mobile](#mobile)
+    - [Tablet](#tablet)
+    - [Desktop](#desktop)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Future Features](#future-features)
+  - [Deployment](#deployment)
+    - [GitHub Pages](#github-pages)
+    - [Forking the GitHub Repository](#forking-the-github-repository)
+    - [Making a Local Clone](#making-a-local-clone)
+  - [Tools and Technologies Used](#tools-and-technologies-used)
+    - [Content](#content)
+    - [Media](#media)
+    - [Credits](#credits)
 
 
 I created this game as a fun way to see how quickly you can guess words from scrambled letters.  On the main screen, you'll find a Start Game button to start playing and a How to Play button to read the instructions first.
@@ -128,16 +133,16 @@ To download the project to your computer:
 
 ## Tools and Technologies Used
 
-| Source | Link |
-|---------|------|
-| Word Guessing Game Tutorial | [YouTube - Word Guessing Game](https://www.youtube.com/watch?v=JYVycJ2CXiI) |
-| JavaScript Crash Course | [YouTube - Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk) |
-|JavaScript Full Course | [YouTube - Bro Code](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv) |
-| JavaScript Game Tutorial | [YouTube - Ali Aslan](https://www.youtube.com/watch?v=2wJKJRa9ncI) |
-| Online Learning Platform | [Code Institute](https://learn.codeinstitute.net/dashboard) |
-| Fonts | [Google Fonts](https://fonts.google.com/) |
-| Color Palette Generator | [Colormind](http://colormind.io/) |
-| Developer Tools | [Chrome DevTools](https://developer.chrome.com/docs/) |
+| Source                      | Link                                                                                                      |
+| --------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Word Guessing Game Tutorial | [YouTube - Word Guessing Game](https://www.youtube.com/watch?v=JYVycJ2CXiI)                               |
+| JavaScript Crash Course     | [YouTube - Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk)                                             |
+| JavaScript Full Course      | [YouTube - Bro Code](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv) |
+| JavaScript Game Tutorial    | [YouTube - Ali Aslan](https://www.youtube.com/watch?v=2wJKJRa9ncI)                                        |
+| Online Learning Platform    | [Code Institute](https://learn.codeinstitute.net/dashboard)                                               |
+| Fonts                       | [Google Fonts](https://fonts.google.com/)                                                                 |
+| Color Palette Generator     | [Colormind](http://colormind.io/)                                                                         |
+| Developer Tools             | [Chrome DevTools](https://developer.chrome.com/docs/)                                                     |
 
 
 ### Content
