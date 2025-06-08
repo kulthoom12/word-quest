@@ -106,7 +106,7 @@ function startGame() {
 	}, 1000);
 }
 
-// check guessed word and give hints if needed 
+// check guessed word and give hints if needed
 
 function checkGuess() {
 	if (input.value != currentWord) {
