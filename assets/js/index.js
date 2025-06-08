@@ -105,3 +105,36 @@ function startGame() {
 		}
 	}, 1000);
 }
+
+// check guessed word and give hints if needed 
+
+function checkGuess() {
+	if (input.value != currentWord) {
+		message.textContent = "Wrong! Try again.";
+	} else {
+		score += 10;
+		scoreDisplay.textContent = "Score:" + score;
+		startGame();
+	}
+}
+
+function revealHint() {
+	if (hintsUsed > 3) {
+		message.textContent = "No more hints!";
+		return;
+	}
+
+	let unrevealed = [];
+	for (let i = 0; i <= currentWord.length; i++) {
+		if (!revealedLetters[i]) {
+			unrevealed.push(i);
+		}
+	}
+
+	let index = unrevealed[Math.floor(Math.random() * unrevealed.length)];
+	revealedLetters[index] = true;
+	hintsUsed = hintsUsed + 1;
+
+	displayWord();
+	message.textContent = "Hint used: " + hintsUsed;
+}
