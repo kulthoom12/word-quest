@@ -13,7 +13,6 @@ const words = [
 ];
 
 // important vairables durig the game.
-
 let currentWord = "";
 let scrambledLetters = [];
 let revealedLetters = [];
@@ -23,7 +22,6 @@ let score = 0;
 let hintsUsed = 0;
 
 // find html by their IDs so we can use them in the game to show, change, or get information from them.
-
 const startBtn = document.getElementById("start-btn");
 const instructionsBtn = document.getElementById("instructions-btn");
 const instructionsDiv = document.getElementById("instructions");
@@ -40,7 +38,6 @@ const scoreDisplay = document.getElementById("score");
 const timerDisplay = document.getElementById("timer");
 
 // This is to shuffle the each word.
-
 function shuffleWord(word) {
 	let array = word.split("");
 	for (let i = array.length - 1; i > 0; i--) {
@@ -58,7 +55,6 @@ function displayScrambled() {
 }
 
 // shows where the correct letter is and blank for the others.
-
 function displayWord() {
 	word.innerHTML = "";
 	for (let i = 0; i < currentWord.length; i++)
@@ -107,7 +103,6 @@ function startGame() {
 }
 
 // check guessed word and show hints if needed
-
 function checkGuess() {
 	if (input.value != currentWord) {
 		message.textContent = "Wrong! Try again.";
@@ -140,7 +135,6 @@ function revealHint() {
 }
 
 // starts the game, checks guesses, gives hints, shows instructions, ends or restarts the game
-
 function endGame(msg) {
 	clearInterval(timer);
 	message.textContent = msg;
