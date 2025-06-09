@@ -22,11 +22,9 @@ let score = 0;
 let hintsUsed = 0;
 
 // find html by their IDs so we can use them in the game to show, change, or get information from them.
-const startBtn = document.getElementById("start-btn");
+const startBtn = document.getElementById("start");
 const instructionsBtn = document.getElementById("instructions-btn");
 const instructionsDiv = document.getElementById("instructions");
-const gameContainer = document.getElementById("game-container");
-const startContainer = document.getElementById("start-container");
 const scrambled = document.getElementById("scrambled");
 const word = document.getElementById("word");
 const input = document.getElementById("guess-input");
