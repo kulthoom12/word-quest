@@ -12,10 +12,6 @@
 
 }
 
-#instructions {
-  display: none;
-}
-
 body {
   font-family: var(--font-primary);
   background-color: var(--background-color);
@@ -27,7 +23,6 @@ body {
 }
 
 /* Headings */
-
 h1,
 h2 {
   font-family: var(--font-secondary);
@@ -36,7 +31,12 @@ h2 {
   color: white;
 }
 
+#instructions {
+  display: none;
+}
+
 /* Start Button */
+
 button#start {
   background-color: var(--button-color);
   color: white;
@@ -45,6 +45,7 @@ button#start {
 }
 
 /* Instruction Button */
+
 button#instructions-btn {
   background-color: var(--button-color);
   color: white;
@@ -53,6 +54,7 @@ button#instructions-btn {
 }
 
 /* Submit Button */
+
 button#submit {
   background-color: var(--button-color);
   color: white;
@@ -68,9 +70,24 @@ button#restart {
 }
 
 /* Hint Button */
+
 button#hint {
   background-color: var(--button-color);
   color: white;
   margin: 10px 5px;
   cursor: pointer;
+}
+
+/* buttons */
+button {
+  background-color: var(--button-color);
+  border-radius: 10px;
+  transition: 0.3;
+  padding: 12px 24px;
+  font-family: var(--font-primary);
+}
+
+button#hover {
+  background-color: var(--button-hover);
+  font-weight: 600;
 }
