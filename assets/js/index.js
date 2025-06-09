@@ -106,7 +106,7 @@ function startGame() {
 	}, 1000);
 }
 
-// check guessed word and give hints if needed
+// check guessed word and show hints if needed 
 
 function checkGuess() {
 	if (input.value != currentWord) {
@@ -138,3 +138,26 @@ function revealHint() {
 	displayWord();
 	message.textContent = "Hint used: " + hintsUsed;
 }
+
+// starts the game, checks guesses, gives hints, shows instructions, ends or restarts the game
+
+function endGame(msg) {
+  clearInterval(timer);
+  message.textContent = msg;
+  input.disabled = true;
+  submitBtn.disabled = true;
+  hintBtn.disabled = true;
+}
+
+instructionsBtn.addEventListener("click", function () {
+  if (instructionsDiv.style.display === "none") {
+    instructionsDiv.style.display = "block";
+  } else {
+    instructionsDiv.style.display = "none";
+  }
+});
+
+startBtn.addEventListener("click", startGame);
+submitBtn.addEventListener("click", checkGuess);
+hintBtn.addEventListener("click", revealHint);
+restartBtn.addEventListener("click", startGame);
