@@ -91,3 +91,19 @@ button#hover {
   background-color: var(--button-hover);
   font-weight: 600;
 }
+
+input#guess {
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+
+/* timer */
+
+span#timer {
+color: white;
+}
+/* score */
+
+span#score{
+color: white;
+}
