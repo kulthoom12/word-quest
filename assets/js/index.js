@@ -34,13 +34,17 @@ const restartBtn = document.getElementById("restart-btn");
 const message = document.getElementById("message");
 const scoreDisplay = document.getElementById("score");
 const timerDisplay = document.getElementById("timer");
+const gameControls = document.getElementById("game-controls");
+const gameContainer = document.getElementById("game");
+const startContainer = document.getElementById("start-container");
 
 // This is to shuffle the each word.
 function shuffleWord(word) {
 	let array = word.split("");
 	for (let i = array.length - 1; i > 0; i--) {
 		let j = Math.floor(Math.random() * i + 1);
-		array[i]; array[j];
+		array[i];
+		array[j];
 		[array[j], array[i]];
 	}
 	return array;
@@ -63,6 +67,8 @@ function displayWord() {
 function startGame() {
 	startContainer.style.display = "none";
 	gameContainer.style.display = "block";
+  gameControls.style.display = "block"; 
+  
 	message.textContent = "";
 	input.value = "";
 	score = 0;
