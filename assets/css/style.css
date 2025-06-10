@@ -36,7 +36,6 @@ h2 {
 }
 
 /* Start Button */
-
 button#start {
   background-color: var(--button-color);
   color: white;
@@ -45,7 +44,6 @@ button#start {
 }
 
 /* Instruction Button */
-
 button#instructions-btn {
   background-color: var(--button-color);
   color: white;
@@ -54,7 +52,6 @@ button#instructions-btn {
 }
 
 /* Submit Button */
-
 button#submit {
   background-color: var(--button-color);
   color: white;
@@ -70,7 +67,6 @@ button#restart {
 }
 
 /* Hint Button */
-
 button#hint {
   background-color: var(--button-color);
   color: white;
@@ -87,23 +83,24 @@ button {
   font-family: var(--font-primary);
 }
 
+/* Hover */
 button#hover {
   background-color: var(--button-hover);
   font-weight: 600;
 }
 
+/* Box for answer */
 input#guess {
   padding: 12px 24px;
   border-radius: 10px;
 }
 
 /* timer */
-
 span#timer {
-color: white;
+  color: white;
 }
-/* score */
 
-span#score{
-color: white;
+/* score */
+span#score {
+  color: white;
 }
