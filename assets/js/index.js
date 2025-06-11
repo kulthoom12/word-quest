@@ -116,13 +116,13 @@ function checkGuess() {
 }
 /** Reveals a hint */
 function revealHint() {
-	if (hintsUsed > 3) {
+	if (hintsUsed >= 3) {
 		message.textContent = "No more hints!";
 		return;
 	}
 
 	let unrevealed = [];
-	for (let i = 0; i <= currentWord.length; i++) {
+	for (let i = 0; i < currentWord.length; i++) {
 		if (!revealedLetters[i]) {
 			unrevealed.push(i);
 		}
