@@ -1,4 +1,4 @@
- /**  Words that will be used in the game when playable. */
+/**  Words that will be used in the game when playable. */
 const words = [
 	"sloth",
 	"pancake",
@@ -27,10 +27,10 @@ const instructionsBtn = document.getElementById("instructions-btn");
 const instructionsDiv = document.getElementById("instructions");
 const scrambled = document.getElementById("scrambled");
 const word = document.getElementById("word");
-const input = document.getElementById("guess-input");
-const submitBtn = document.getElementById("submit-btn");
+const input = document.getElementById("guess");
+const submitBtn = document.getElementById("submit");
 const hintBtn = document.getElementById("hint-btn");
-const restartBtn = document.getElementById("restart-btn");
+const restartBtn = document.getElementById("restart");
 const message = document.getElementById("message");
 const scoreDisplay = document.getElementById("score");
 const timerDisplay = document.getElementById("timer");
@@ -68,7 +68,7 @@ function displayWord() {
 function startGame() {
 	startContainer.style.display = "none";
 	gameContainer.style.display = "block";
-  gameControls.style.display = "block"; 
+	gameControls.style.display = "block";
 
 	message.textContent = "";
 	input.value = "";
