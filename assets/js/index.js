@@ -29,7 +29,7 @@ const scrambled = document.getElementById("scrambled");
 const word = document.getElementById("word");
 const input = document.getElementById("guess");
 const submitBtn = document.getElementById("submit");
-const hintBtn = document.getElementById("hint-btn");
+const hintBtn = document.getElementById("hint");
 const restartBtn = document.getElementById("restart");
 const message = document.getElementById("message");
 const scoreDisplay = document.getElementById("score");
@@ -44,9 +44,7 @@ function shuffleWord(word) {
 	let array = word.split("");
 	for (let i = array.length - 1; i > 0; i--) {
 		let j = Math.floor(Math.random() * i + 1);
-		[array[i],
-		array[j]],
-		[array[j], array[i]]
+		[array[i], array[j]] = [array[j], array[i]];
 	}
 	return array;
 }
@@ -97,7 +95,7 @@ function startGame() {
 	clearInterval(timer);
 
 	timer = setInterval(function () {
-		timeLeft = timeLeft - 1;
+		timeLeft = timeLeft --;
 		timerDisplay.textContent = "Time: " + timeLeft;
 		if (timeLeft === 0) {
 			endGame("Time's up!");
@@ -107,12 +105,13 @@ function startGame() {
 
 /**  Check guessed word and show hints if needed */
 function checkGuess() {
-	if (input.value != currentWord) {
-		message.textContent = "Wrong! Try again.";
-	} else {
-		score += 10;
+	const guess = input.value.trim().toLowerCase();
+  if (guess !== currentWord.toLowerCase()) {
+  } else {
+    score += 10;
 		scoreDisplay.textContent = "Score:" + score;
-		startGame();
+    input.value = "";
+		startGame();	
 	}
 }
 /** Reveals a hint */
