@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- title & custom CSS -->
     <title>Word Quest</title>
-    
+    <!-- favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
     <link rel="manifest" href="assets/images/site.webmanifest">
-
+    <!-- custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -32,6 +32,7 @@
     <!-- Game Container -->
 
     <div id="game">
+        <div id="game-controls" class="hidden">
         <div id="status">
             <span id="timer">Timer 60s </span>
             <span id="score">Score: 0 </span>
@@ -45,7 +46,10 @@
         <button id="submit" aria-label="Submit your guess">Submit</button>
         <button id="hint" aria-label="Get a hint">Hint</button>
         <button id="restart" aria-label="Restart the game">Restart</button>
+        </div>
 
+        <div id="scrambled" class="letters"></div>
+        <div id="word" class="letters"></div>
         <div id="message" aria-live="polite"></div>
 
     </div>
