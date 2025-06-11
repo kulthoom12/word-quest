@@ -33,9 +33,18 @@ h2 {
   font-size: 60px;
 }
 
+#scrambled, #word, #score, #timer, #message {
+  color: white;
+}
+
 #instructions {
   display: none;
 }
+
+#game {
+  display: none;
+}
+
 
 /* Start Button */
 button#start {
@@ -121,4 +130,8 @@ span#score {
 div#status{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.hidden {
+  display: none;
 }
