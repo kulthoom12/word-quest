@@ -17,8 +17,9 @@
 
 <body>
     <h1> Word Quest</h1>
-
-    <button id="start">Start Game</button>
+    <div id="start-container">
+        <button id="start">Start Game</button>
+    </div>
     <!-- this is instruction buttons have added style to css instead -->
     <button id="instructions-btn">How to Play</button>
     <div id="instructions">
@@ -33,25 +34,21 @@
 
     <div id="game">
         <div id="game-controls" class="hidden">
-        <div id="status">
-            <span id="timer">Timer 60s </span>
-            <span id="score">Score: 0 </span>
+            <div id="status">
+                <span id="timer">Timer 60s </span>
+                <span id="score">Score: 0 </span>
+            </div>
+            <div id="scrambled" class="letters"></div>
+            <div id="word" class="letters"></div>
+
+            <!-- submit, restart and hint buttons for the playable game -->
+
+            <input type="text" id="guess" placeholder="Type your answer here" aria-label="Type your guess">
+            <button id="submit" aria-label="Submit your guess">Submit</button>
+            <button id="hint" aria-label="Get a hint">Hint</button>
+            <button id="restart" aria-label="Restart the game">Restart</button>
         </div>
-        <div id="scrambled" class="letters"></div>
-        <div id="word" class="letters"></div>
-
-        <!-- submit, restart and hint buttons for the playable game -->
-
-        <input type="text" id="guess" placeholder="Type your answer here" aria-label="Type your guess">
-        <button id="submit" aria-label="Submit your guess">Submit</button>
-        <button id="hint" aria-label="Get a hint">Hint</button>
-        <button id="restart" aria-label="Restart the game">Restart</button>
-        </div>
-
-        <div id="scrambled" class="letters"></div>
-        <div id="word" class="letters"></div>
         <div id="message" aria-live="polite"></div>
-
     </div>
 
     <script src="assets/js/index.js"></script>
