@@ -41,17 +41,24 @@ const gameControls = document.getElementById("game-controls");
 const gameContainer = document.getElementById("game");
 const startContainer = document.getElementById("start-container");
 
+// hide buttons in the initally
+
+submitBtn.classList.add("hidden");
+hintBtn.classList.add("hidden");
+restartBtn.classList.add("hidden");
+
 /** This is to shuffle the each word. */
 
 function shuffleWord(word) {
 	let array = word.split("");
 	for (let i = array.length - 1; i > 0; i--) {
-		let j = Math.floor(Math.random() * (i + 1));
-		[array[i], array[j]] = [array[j], array[i]];
+		let j = Math.floor(Math.random() * i + 1);
+		[array[i],
+		array[j]] =
+		[array[j], array[i]]
 	}
 	return array;
 }
-
 /** Display scrambled letters while game is on */
 function displayScrambled() {
 	scrambled.textContent = scrambledLetters.join(" ");
@@ -64,16 +71,19 @@ function displayWord() {
 		if (revealedLetters[i]) {
 			word.innerHTML += currentWord[i] + " ";
 		} else {
-			word.innerHTML += "_ ";
-		}
-	}
+      word.innerHTML += "_ ";
 }
-
+}
+}
 /** Starts the game */
+
 function startGame() {
-	startContainer.classList.add("hidden")
+	startContainer.style.display = "none";
 	gameContainer.style.display = "block";
-	gameControls.classList.remove("hidden");
+	gameControls.classList.remove("hidden")
+  submitBtn.classList.remove("hidden");
+	hintBtn.classList.remove("hidden");
+	restartBtn.classList.remove("hidden");
 
 	message.textContent = "";
 	input.value = "";
@@ -86,8 +96,8 @@ function startGame() {
 
 	currentWord = words[Math.floor(Math.random() * words.length)];
 	scrambledLetters = shuffleWord(currentWord);
-	revealedLetters = Array(currentWord.length).fill
-  (false);
+	revealedLetters = new Array(currentWord.length).fill(false);
+
 	displayScrambled();
 	displayWord();
 
@@ -96,8 +106,9 @@ function startGame() {
 	hintBtn.disabled = false;
 
 	clearInterval(timer);
-	timer = setInterval(function () {
-    timeLeft--;
+
+	timer = setInterval(() => {
+		timeLeft --;
 		timerDisplay.textContent = "Time: " + timeLeft;
 		if (timeLeft <= 0) {
 			endGame("Time's up!");
@@ -107,35 +118,27 @@ function startGame() {
 
 /**  Check guessed word and show hints if needed */
 function checkGuess() {
-	const guess = input.value.trim().toLowerCase();
-	if (guess !== currentWord.toLowerCase()) {
-    message.textContent = "Wrong! Try again.";
-  } else {
+	if (input.value != currentWord) {
+		message.textContent = "Wrong! Try again.";
+	} else {
 		score += 10;
-		scoreDisplay.textContent = "Score: " + score;
-		input.value = "";
+		scoreDisplay.textContent = "Score:" + score;
 		startGame();
 	}
 }
-
 /** Reveals a hint */
 function revealHint() {
-	if (hintsUsed >= 3) {
+	if (hintsUsed > 3) {
 		message.textContent = "No more hints!";
 		return;
 	}
 
 	let unrevealed = [];
-	for (let i = 0; i < currentWord.length; i++) {
+	for (let i = 0; i <= currentWord.length; i++) {
 		if (!revealedLetters[i]) {
 			unrevealed.push(i);
 		}
 	}
-  
-  if (unrevealed.length === 0) {
-    message.textContent = "All letters revealed!";
-    return;
-  }
 
 	let index = unrevealed[Math.floor(Math.random() * unrevealed.length)];
 	revealedLetters[index] = true;
@@ -155,9 +158,7 @@ function endGame(msg) {
 }
 
 instructionsBtn.addEventListener("click", function () {
-	if (instructionsDiv.style.display === "block") {
-		instructionsDiv.style.display = "none";
-	} else {
+	if (instructionsDiv.style.display === "none") {
 		instructionsDiv.style.display = "block";
 	} else {
 		instructionsDiv.style.display = "none";
