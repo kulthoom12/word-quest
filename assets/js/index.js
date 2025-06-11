@@ -1,3 +1,6 @@
+console.log("JS loaded");
+
+
 /**  Words that will be used in the game when playable. */
 const words = [
 	"sloth",
@@ -48,6 +51,7 @@ function shuffleWord(word) {
 	}
 	return array;
 }
+
 /** Display scrambled letters while game is on */
 function displayScrambled() {
 	scrambled.textContent = scrambledLetters.join(" ");
@@ -64,12 +68,12 @@ function displayWord() {
 		}
 	}
 }
-/** Starts the game */
 
+/** Starts the game */
 function startGame() {
-	startContainer.style.display = "none";
+	startContainer.classList.add("hidden")
 	gameContainer.style.display = "block";
-	gameControls.style.display = "block";
+	gameControls.classList.remove("hidden");
 
 	message.textContent = "";
 	input.value = "";
@@ -82,12 +86,8 @@ function startGame() {
 
 	currentWord = words[Math.floor(Math.random() * words.length)];
 	scrambledLetters = shuffleWord(currentWord);
-	revealedLetters = [];
-
-	for (let i = 0; i < currentWord.length; i++) {
-		revealedLetters.push(false);
-	}
-
+	revealedLetters = Array(currentWord.length).fill
+  (false);
 	displayScrambled();
 	displayWord();
 
@@ -96,11 +96,10 @@ function startGame() {
 	hintBtn.disabled = false;
 
 	clearInterval(timer);
-
 	timer = setInterval(function () {
     timeLeft--;
 		timerDisplay.textContent = "Time: " + timeLeft;
-		if (timeLeft === 0) {
+		if (timeLeft <= 0) {
 			endGame("Time's up!");
 		}
 	}, 1000);
@@ -118,6 +117,7 @@ function checkGuess() {
 		startGame();
 	}
 }
+
 /** Reveals a hint */
 function revealHint() {
 	if (hintsUsed >= 3) {
@@ -131,6 +131,11 @@ function revealHint() {
 			unrevealed.push(i);
 		}
 	}
+  
+  if (unrevealed.length === 0) {
+    message.textContent = "All letters revealed!";
+    return;
+  }
 
 	let index = unrevealed[Math.floor(Math.random() * unrevealed.length)];
 	revealedLetters[index] = true;
@@ -150,10 +155,10 @@ function endGame(msg) {
 }
 
 instructionsBtn.addEventListener("click", function () {
-	if (instructionsDiv.style.display === "none") {
-		instructionsDiv.style.display = "block";
-	} else {
+	if (instructionsDiv.style.display === "block") {
 		instructionsDiv.style.display = "none";
+	} else {
+		instructionsDiv.style.display = "block";
 	}
 });
 
@@ -161,3 +166,4 @@ startBtn.addEventListener("click", startGame);
 submitBtn.addEventListener("click", checkGuess);
 hintBtn.addEventListener("click", revealHint);
 restartBtn.addEventListener("click", startGame);
+
