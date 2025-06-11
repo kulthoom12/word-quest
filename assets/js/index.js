@@ -139,7 +139,7 @@ function revealHint() {
 
 	let index = unrevealed[Math.floor(Math.random() * unrevealed.length)];
 	revealedLetters[index] = true;
-	hintsUsed ++;
+	hintsUsed = hintsUsed + 1;
 
 	displayWord();
 	message.textContent = "Hint used: " + hintsUsed;
@@ -159,6 +159,8 @@ instructionsBtn.addEventListener("click", function () {
 		instructionsDiv.style.display = "none";
 	} else {
 		instructionsDiv.style.display = "block";
+	} else {
+		instructionsDiv.style.display = "none";
 	}
 });
 
@@ -166,4 +168,3 @@ startBtn.addEventListener("click", startGame);
 submitBtn.addEventListener("click", checkGuess);
 hintBtn.addEventListener("click", revealHint);
 restartBtn.addEventListener("click", startGame);
-
