@@ -99,7 +99,7 @@ function startGame() {
 	timer = setInterval(function () {
 		timeLeft = timeLeft - 1;
 		timerDisplay.textContent = "Time: " + timeLeft;
-		if (timeLeft == 0) {
+		if (timeLeft === 0) {
 			endGame("Time's up!");
 		}
 	}, 1000);
