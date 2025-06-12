@@ -130,10 +130,10 @@ function checkGuess() {
 	} else {
 		score += 10;
 		scoreDisplay.textContent = "Score: " + score;
-    hintsUsed = 0;
-     timeLeft = 60;
+		hintsUsed = 0;
+		timeLeft = 60;
 		startRound();
-    message.textContent = "Correct! New word loaded.";
+		message.textContent = "Correct! New word loaded.";
 	}
 }
 /** Reveals a hint */

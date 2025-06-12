@@ -5,7 +5,7 @@
   --font-primary: 'Comic Neue', sans-serif;
   --font-secondary: 'Chewy', cursive;
   --background-color: #0f2027;
-  --button-color: #32cd32; 
+  --button-color: #32cd32;
   --button-hover: #2aaa2a;
   --highlight-color: #FFD700;
   --text-color: white;
@@ -33,12 +33,15 @@ h2 {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
 /* words in game  */
-#scrambled, #word, #score, #timer, #message {
+#scrambled,
+#word,
+#score,
+#timer,
+#message {
   color: white;
   font-size: size 20px;
-
-
 }
 
 #instructions {
@@ -49,20 +52,20 @@ h2 {
   display: none;
 }
 
-div#scrambled.letters{
+div#scrambled.letters {
   font-size: 2rem;
   font-weight: bold;
   letter-spacing: 4px;
-  padding: 10px; 
+  padding: 10px;
   text-align: center;
   font-family: var(--font-primary);
 }
 
-div#instructions{
-color: white;
+div#instructions {
+  color: white;
 }
 
-div#word.letters{
+div#word.letters {
   letter-spacing: 10px;
   font-size: 24px;
   font-weight: bold;
@@ -141,17 +144,17 @@ input#guess {
 span#timer {
   color: white;
   font-size: 20px;
-  
+
 }
 
 /* score */
 span#score {
   color: white;
   font-size: 20px;
-  
+
 }
 
-div#status{
+div#status {
   padding-top: 10px;
   padding-bottom: 10px;
 }
