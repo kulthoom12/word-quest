@@ -41,7 +41,7 @@ const gameControls = document.getElementById("game-controls");
 const gameContainer = document.getElementById("game");
 const startContainer = document.getElementById("start-container");
 
-// hide buttons in the initally
+// hide buttons initally
 
 submitBtn.classList.add("hidden");
 hintBtn.classList.add("hidden");
@@ -75,38 +75,44 @@ function displayWord() {
 }
 }
 }
-/** Starts the game */
+/** reset the whole game*/
 
-function startGame() {
-	startContainer.style.display = "none";
-	gameContainer.style.display = "block";
-	gameControls.classList.remove("hidden")
+function resetGame() {
+  score = 0;
+  timeLeft = 60;
+  hintsUsed = 0;
+
+  scoreDisplay.textContent = "Score: " + score;
+  timerDisplay.textContent = "Time: " + timeLeft;
+  message.textContent = "";
+  input.value = "";
+  input.disabled = false;
+  submitBtn.disabled = false;
+  hintBtn.disabled = false;
+   
+  gameControls.classList.remove("hidden")
   submitBtn.classList.remove("hidden");
-	hintBtn.classList.remove("hidden");
-	restartBtn.classList.remove("hidden");
+  hintBtn.classList.remove("hidden");
+  restartBtn.classList.remove("hidden");
+	startContainer.style.display = "none";
+	gameContainer.style.display = "block";	
+}
 
-	message.textContent = "";
-	input.value = "";
-	score = 0;
-	timeLeft = 60;
-	hintsUsed = 0;
+function startRound(){
 
-	scoreDisplay.textContent = "Score: " + score;
-	timerDisplay.textContent = "Time: " + timeLeft;
-
-	currentWord = words[Math.floor(Math.random() * words.length)];
+  currentWord = words[Math.floor(Math.random() * words.length)];
 	scrambledLetters = shuffleWord(currentWord);
-	revealedLetters = new Array(currentWord.length).fill(false);
+  revealedLetters = new Array(currentWord.length).fill(false);
 
 	displayScrambled();
 	displayWord();
 
+  input.value = "";
 	input.disabled = false;
 	submitBtn.disabled = false;
 	hintBtn.disabled = false;
 
 	clearInterval(timer);
-
 	timer = setInterval(() => {
 		timeLeft --;
 		timerDisplay.textContent = "Time: " + timeLeft;
@@ -114,6 +120,11 @@ function startGame() {
 			endGame("Time's up!");
 		}
 	}, 1000);
+}
+
+function startGame() {
+  resetGame();
+  startRound();
 }
 
 /**  Check guessed word and show hints if needed */
@@ -128,7 +139,7 @@ function checkGuess() {
 }
 /** Reveals a hint */
 function revealHint() {
-	if (hintsUsed > 3) {
+	if (hintsUsed >= 3) {
 		message.textContent = "No more hints!";
 		return;
 	}
@@ -139,13 +150,17 @@ function revealHint() {
 			unrevealed.push(i);
 		}
 	}
+  if (unrevealed.length ===0) {
+    message.textContent = "All letter already revealed!";
+    return;
+  }
 
 	let index = unrevealed[Math.floor(Math.random() * unrevealed.length)];
 	revealedLetters[index] = true;
-	hintsUsed = hintsUsed + 1;
+	hintsUsed++;
 
 	displayWord();
-	message.textContent = "Hint used: " + hintsUsed;
+  message.textContent = "Hint used: " + hintsUsed;
 }
 
 /** starts the game, checks guesses, gives hints, shows instructions, ends or restarts the game */
