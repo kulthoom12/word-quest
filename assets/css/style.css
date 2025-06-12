@@ -5,12 +5,10 @@
   --font-primary: 'Comic Neue', sans-serif;
   --font-secondary: 'Chewy', cursive;
   --background-color: #0f2027;
-  --button-color: #32cd32;
-  --button-hover: #28a428;
+  --button-color: #32cd32; 
+  --button-hover: #2aaa2a;
   --highlight-color: #FFD700;
-  --box-border: #32cd32;
   --text-color: white;
-
 }
 
 body {
@@ -22,6 +20,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+
 }
 
 /* Headings */
@@ -30,7 +29,9 @@ h2 {
   font-family: var(--font-secondary);
   font-weight: bold;
   color: white;
-  font-size: 60px;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 /* words in game  */
 #scrambled, #word, #score, #timer, #message {
@@ -122,9 +123,10 @@ button {
 }
 
 /* Hover */
-button#hover {
+button:hover {
   background-color: var(--button-hover);
   font-weight: 600;
+  box-shadow: 0 0 12px 4px var(--button-hover);
 }
 
 /* Box for answer */
