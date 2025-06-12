@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=UnifrakturCook:wght@700&display=swap');
 
 :root {
 
-  --font-primary: 'Comic Neue', sans-serif;
-  --font-secondary: 'Chewy', cursive;
-  --background-color: #0f2027;
-  --button-color: #32cd32;
-  --button-hover: #2aaa2a;
+  --font-primary: 'Roboto Slab', serif;
+  --font-secondary: 'Cinzel Decorative';
+  --background-color: #1c1c1c;
+  --button-color: #8B0000;
+  --button-hover: #A40000; 
   --highlight-color: #FFD700;
-  --text-color: white;
+  --text-color: #F5F5F5;
 }
 
 body {
