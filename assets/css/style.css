@@ -57,6 +57,11 @@ div#scrambled.letters{
   font-family: var(--font-primary);
 }
 
+div#instructions{
+color: white;
+
+}
+
 div#word.letters{
   letter-spacing: 10px;
   font-size: 24px;
