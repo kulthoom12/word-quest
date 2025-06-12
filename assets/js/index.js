@@ -1,6 +1,5 @@
 console.log("JS loaded");
 
-
 /**  Words that will be used in the game when playable. */
 const words = [
 	"sloth",
@@ -53,9 +52,7 @@ function shuffleWord(word) {
 	let array = word.split("");
 	for (let i = array.length - 1; i > 0; i--) {
 		let j = Math.floor(Math.random() * i + 1);
-		[array[i],
-		array[j]] =
-		[array[j], array[i]]
+		[array[i], array[j]] = [array[j], array[i]];
 	}
 	return array;
 }
@@ -71,50 +68,49 @@ function displayWord() {
 		if (revealedLetters[i]) {
 			word.innerHTML += currentWord[i] + " ";
 		} else {
-      word.innerHTML += "_ ";
-}
-}
+			word.innerHTML += "_ ";
+		}
+	}
 }
 /** reset the whole game*/
 
 function resetGame() {
-  score = 0;
-  timeLeft = 60;
-  hintsUsed = 0;
+	score = 0;
+	timeLeft = 60;
+	hintsUsed = 0;
 
-  scoreDisplay.textContent = "Score: " + score;
-  timerDisplay.textContent = "Time: " + timeLeft;
-  message.textContent = "";
-  input.value = "";
-  input.disabled = false;
-  submitBtn.disabled = false;
-  hintBtn.disabled = false;
-   
-  gameControls.classList.remove("hidden")
-  submitBtn.classList.remove("hidden");
-  hintBtn.classList.remove("hidden");
-  restartBtn.classList.remove("hidden");
+	scoreDisplay.textContent = "Score: " + score;
+	timerDisplay.textContent = "Time: " + timeLeft;
+	message.textContent = "";
+	input.value = "";
+	input.disabled = false;
+	submitBtn.disabled = false;
+	hintBtn.disabled = false;
+
+	gameControls.classList.remove("hidden");
+	submitBtn.classList.remove("hidden");
+	hintBtn.classList.remove("hidden");
+	restartBtn.classList.remove("hidden");
 	startContainer.style.display = "none";
-	gameContainer.style.display = "block";	
+	gameContainer.style.display = "block";
 }
 
-function startRound(){
-
-  currentWord = words[Math.floor(Math.random() * words.length)];
+function startRound() {
+	currentWord = words[Math.floor(Math.random() * words.length)];
 	scrambledLetters = shuffleWord(currentWord);
-  revealedLetters = new Array(currentWord.length).fill(false);
+	revealedLetters = new Array(currentWord.length).fill(false);
 
 	displayScrambled();
 	displayWord();
 
-  input.value = "";
+	input.value = "";
 	input.disabled = false;
 	submitBtn.disabled = false;
 	hintBtn.disabled = false;
 
 	clearInterval(timer);
 	timer = setInterval(() => {
-		timeLeft --;
+		timeLeft--;
 		timerDisplay.textContent = "Time: " + timeLeft;
 		if (timeLeft <= 0) {
 			endGame("Time's up!");
@@ -123,8 +119,8 @@ function startRound(){
 }
 
 function startGame() {
-  resetGame();
-  startRound();
+	resetGame();
+	startRound();
 }
 
 /**  Check guessed word and show hints if needed */
@@ -150,17 +146,17 @@ function revealHint() {
 			unrevealed.push(i);
 		}
 	}
-  if (unrevealed.length ===0) {
-    message.textContent = "All letter already revealed!";
-    return;
-  }
+	if (unrevealed.length === 0) {
+		message.textContent = "All letter already revealed!";
+		return;
+	}
 
 	let index = unrevealed[Math.floor(Math.random() * unrevealed.length)];
 	revealedLetters[index] = true;
 	hintsUsed++;
 
 	displayWord();
-  message.textContent = "Hint used: " + hintsUsed;
+	message.textContent = "Hint used: " + hintsUsed;
 }
 
 /** starts the game, checks guesses, gives hints, shows instructions, ends or restarts the game */
@@ -173,13 +169,17 @@ function endGame(msg) {
 }
 
 instructionsBtn.addEventListener("click", function () {
-	if (instructionsDiv.style.display === "none") {
+	if (
+		instructionsDiv.style.display === "none" ||
+		instructionsDiv.style.display === ""
+	) {
 		instructionsDiv.style.display = "block";
 	} else {
 		instructionsDiv.style.display = "none";
 	}
 });
 
+// Event Listeners
 startBtn.addEventListener("click", startGame);
 submitBtn.addEventListener("click", checkGuess);
 hintBtn.addEventListener("click", revealHint);
