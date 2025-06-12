@@ -35,6 +35,9 @@ h2 {
 /* words in game  */
 #scrambled, #word, #score, #timer, #message {
   color: white;
+  font-size: size 20px;
+
+
 }
 
 #instructions {
@@ -45,12 +48,27 @@ h2 {
   display: none;
 }
 
+div#scrambled.letters{
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  padding: 10px; 
+  text-align: center;
+  font-family: var(--font-primary);
+}
+
+div#word.letters{
+  letter-spacing: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 
 /* Start Button */
 button#start {
   background-color: var(--button-color);
   color: white;
-  margin: 10px 5px;
+  margin: 5px 5px;
   cursor: pointer;
   font-size: 20px;
 }
