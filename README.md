@@ -21,16 +21,10 @@
     - [Making a Local Clone](#making-a-local-clone)
   - [Tools and Technologies Used](#tools-and-technologies-used)
     - [Content](#content)
-    - [Media](#media)
     - [Credits](#credits)
 
+This word guessing game is a simple and fun way to challenge your brain. The goal is to unscramble letters and guess the hidden word before time runs out. It’s designed to be quick to pick up but tricky enough to keep you hooked. You can use hints if you get stuck, but try to rely on them sparingly! Whether you’re practicing your vocabulary or just killing some time, this game offers an engaging way to stay sharp and entertained.
 
-I created this game as a fun way to see how quickly you can guess words from scrambled letters.  On the main screen, you'll find a Start Game button to start playing and a How to Play button to read the instructions first.
-
- Each round allows you 60 seconds to guess the word.  If you find yourself stuck, you can use up to three hints. Simply input your answer and hit submit if you're correct, you'll earn points and move on to the next word.
-
- It's an easy and entertaining game to keep your mind working!
- 
 A live version of the project can be accessed here: [Word Quest](kulthoom12.github.io/Word-Quest/)
 
 ## UX
@@ -133,24 +127,24 @@ To download the project to your computer:
 
 ## Tools and Technologies Used
 
-| Source                      | Link                                                                                                      |
-| --------------------------- | --------------------------------------------------------------------------------------------------------- |
-| Word Guessing Game Tutorial | [YouTube - Word Guessing Game](https://www.youtube.com/watch?v=JYVycJ2CXiI)                               |
-| JavaScript Crash Course     | [YouTube - Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk)                                             |
-| JavaScript Full Course      | [YouTube - Bro Code](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv) |
-| JavaScript Game Tutorial    | [YouTube - Ali Aslan](https://www.youtube.com/watch?v=2wJKJRa9ncI)                                        |
-| Online Learning Platform    | [Code Institute](https://learn.codeinstitute.net/dashboard)                                               |
-| Fonts                       | [Google Fonts](https://fonts.google.com/)                                                                 |
-| Color Palette Generator     | [Colormind](http://colormind.io/)                                                                         |
-| Developer Tools             | [Chrome DevTools](https://developer.chrome.com/docs/)                                                     |
+| Source           | Link                                                                                          |
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| Fonts                   | [Google Fonts](https://fonts.google.com/)                                                    |
+| Color Palette Generator | [Colormind](http://colormind.io/)                                                            |
+| Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/)                                        |
 
 
 ### Content
-
-### Media
 
 ### Credits
 
 I would like to thank my tutor Robert Thompson and my mentor Lauren-Nicole for their support with completing this project.
 
 
+| Source                   | Link                                                                                                      |
+| ------------------------ | --------------------------------------------------------------------------------------------------------- |
+| Word Guessing Game Tutorial | [YouTube - Word Guessing Game](https://www.youtube.com/watch?v=JYVycJ2CXiI)                               |
+| JavaScript Crash Course  | [YouTube - Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk)                                             |
+| JavaScript Full Course   | [YouTube - Bro Code](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv) |
+| JavaScript Game Tutorial | [YouTube - Ali Aslan](https://www.youtube.com/watch?v=2wJKJRa9ncI)                                        |
+| Online Learning Platform | [Code Institute](https://learn.codeinstitute.net/dashboard)                                               |
