@@ -141,13 +141,13 @@ function revealHint() {
 	}
 
 	let unrevealed = [];
-	for (let i = 0; i <= currentWord.length; i++) {
+	for (let i = 0; i < currentWord.length; i++) {
 		if (!revealedLetters[i]) {
 			unrevealed.push(i);
 		}
 	}
 	if (unrevealed.length === 0) {
-		message.textContent = "All letter already revealed!";
+		message.textContent = "No more hints!";
 		return;
 	}
 
