@@ -2,17 +2,38 @@ console.log("JS loaded");
 
 /**  Words that will be used in the game when playable. */
 const words = [
-	"sloth",
-	"pancake",
-	"dragon",
-	"zombie",
-	"robot",
-	"glitter",
-	"ninja",
-	"donut",
-	"wizard",
-	"volcano",
+"Detective",
+"Suspect",
+"Evidence",
+"Clue",
+"Crime",
+"Alibi",
+"Motive",
+"Witness",
+"Investigation",
+"Mystery",
+"Victim",
+"Scene",
+"Fingerprint",
+"Interrogate",
+"Confession",
+"Hideout",
+"Culprit",
+"Secret",
+"Escape",
+"Chase",
+"Puzzle",
+"Break-in",
+"Weapon",
+"Disguise",
+"Kidnapped",
+"Ransom",
+"Detect",
+"Case",
+"Trap",
+"Justice"
 ];
+
 
 // important vairables durig the game.
 let currentWord = "";
@@ -125,7 +146,7 @@ function startGame() {
 
 /**  Check guessed word and show hints if needed */
 function checkGuess() {
-	if (input.value != currentWord) {
+	if (input.value.toLowerCase() !== currentWord.toLowerCase()) {
 		message.textContent = "Wrong! Try again.";
 	} else {
 		score += 10;
