@@ -129,7 +129,7 @@ function checkGuess() {
 		message.textContent = "Wrong! Try again.";
 	} else {
 		score += 10;
-		scoreDisplay.textContent = "Score:" + score;
+		scoreDisplay.textContent = "Score: " + score;
     hintsUsed = 0;
      timeLeft = 60;
 		startRound();
