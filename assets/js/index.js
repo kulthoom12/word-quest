@@ -2,38 +2,37 @@ console.log("JS loaded");
 
 /**  Words that will be used in the game when playable. */
 const words = [
-"Detective",
-"Suspect",
-"Evidence",
-"Clue",
-"Crime",
-"Alibi",
-"Motive",
-"Witness",
-"Investigation",
-"Mystery",
-"Victim",
-"Scene",
-"Fingerprint",
-"Interrogate",
-"Confession",
-"Hideout",
-"Culprit",
-"Secret",
-"Escape",
-"Chase",
-"Puzzle",
-"Break-in",
-"Weapon",
-"Disguise",
-"Kidnapped",
-"Ransom",
-"Detect",
-"Case",
-"Trap",
-"Justice"
+	"detective",
+	"suspect",
+	"evidence",
+	"clue",
+	"crime",
+	"alibi",
+	"motive",
+	"witness",
+	"investigation",
+	"mystery",
+	"victim",
+	"scene",
+	"fingerprint",
+	"interrogate",
+	"confession",
+	"hideout",
+	"culprit",
+	"secret",
+	"escape",
+	"chase",
+	"puzzle",
+	"burglary",
+	"weapon",
+	"disguise",
+	"kidnapped",
+	"ransom",
+	"detect",
+	"case",
+	"trap",
+	"justice",
 ];
-
 
 // important vairables durig the game.
 let currentWord = "";
@@ -146,7 +145,9 @@ function startGame() {
 
 /**  Check guessed word and show hints if needed */
 function checkGuess() {
-	if (input.value.toLowerCase() !== currentWord.toLowerCase()) {
+	const guess = input.value.trim().toLowerCase();
+	const answer = currentWord.toLocaleLowerCase();
+	if (guess !== answer) {
 		message.textContent = "Wrong! Try again.";
 	} else {
 		score += 10;
@@ -157,6 +158,7 @@ function checkGuess() {
 		message.textContent = "Correct! New word loaded.";
 	}
 }
+
 /** Reveals a hint */
 function revealHint() {
 	if (hintsUsed >= 3) {
