@@ -34,16 +34,6 @@ h2 {
   margin-top: 20px;
 }
 
-/* words in game  */
-#scrambled,
-#word,
-#score,
-#timer,
-#message {
-  color: white;
-  font-size: size 20px;
-}
-
 #instructions {
   display: none;
 }
@@ -58,7 +48,8 @@ div#scrambled.letters {
   letter-spacing: 4px;
   padding: 10px;
   text-align: center;
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
+  color: var(--text-color);
 }
 
 div#instructions {
@@ -70,6 +61,11 @@ div#word.letters {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+div#message{
+  color: var(--highlight-color);
 }
 
 /* Start Button */
@@ -97,6 +93,7 @@ button#submit {
   margin: 10px 5px;
   cursor: pointer;
   font-size: 20px;
+  color: var(--highlight-color);
 }
 
 button#restart {
@@ -105,12 +102,13 @@ button#restart {
   margin: 10px 5px;
   cursor: pointer;
   font-size: 20px;
+  color: var(--highlight-color);
 }
 
 /* Hint Button */
 button#hint {
   background-color: var(--button-color);
-  color: white;
+  color: var(--highlight-color);
   margin: 10px 5px;
   cursor: pointer;
   font-size: 20px;
@@ -144,14 +142,16 @@ input#guess {
 span#timer {
   color: white;
   font-size: 20px;
-
+  color: var(--highlight-color);
+  font-weight: bold;
 }
 
 /* score */
 span#score {
   color: white;
   font-size: 20px;
-
+  color: var(--highlight-color);
+  font-weight: bold;
 }
 
 div#status {
