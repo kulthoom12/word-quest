@@ -3,7 +3,6 @@ const words = [
   "clue",
   "detective",
   "suspect",
-  "alibi",
   "evidence",
   "crime",
   "witness",
