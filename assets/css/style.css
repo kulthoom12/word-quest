@@ -108,6 +108,11 @@ button#hint {
   font-size: 20px;
 }
 
+p {
+  color: var(--highlight-color);
+  font-family: var(--font-secondary);
+}
+
 /* buttons */
 button {
   background-color: var(--button-color);
