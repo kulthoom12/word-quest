@@ -22,9 +22,9 @@
 
 I created this game as a fun and thrilling way to test your detective skills by solving mystery-themed scrambled words.
 
-On the main screen, you can press Start Game to dive into the challenge, or How to Play to read the instructions first.
+On the main screen, you can press **Start Game** to dive into the challenge, or **How to Play** to read the instructions first.
 
-Each round gives you 60 seconds to decode a word. If you get stuck, you can use up to three hints. Type in your answer and hit submit — if you're right, you’ll earn points and move on to the next clue.
+Each round gives you 60 seconds to decode a word. If you get stuck, you can use up to three hints. Type in your answer and hit **Submit** — if you're right, you’ll earn points and move on to the next clue.
 
 It’s a fast-paced, brain-teasing game perfect for crime lovers and puzzle solvers alike!
 
@@ -34,19 +34,19 @@ A live version of the project can be accessed here: [Word Quest](kulthoom12.gith
 
 ### New User Stories
 
-- As a new user I would like to see a clear the word so I know what the game is.
-- As a new user I would like to see a Start Game button so I can begin playing easily.
-- As a new user I would like to see an Instructions button to understand how to play.
-- As a new user I would like to see scrambled letters and a place to type my guess.
-- As a new user I would like to see a timer.
-- As a new user I would like to see a hint button to help me if I get stuck.
-- As a new user I would like to see a restart button in case I want to play again.
+- As a new user, I would like to see a clear word so I know what the game is.
+- As a new user, I would like to see a Start Game button so I can begin playing easily.
+- As a new user, I would like to see an Instructions button to understand how to play.
+- As a new user, I would like to see scrambled letters and a place to type my guess.
+- As a new user, I would like to see a timer.
+- As a new user, I would like to see a hint button to help me if I get stuck.
+- As a new user, I would like to see a restart button in case I want to play again.
 
 ### Existing Users
 
-- As an existing user I would like hints that help without giving too much away.
-- As an existing user I would like the game to feel smooth and easy every time.
-- As an existing user I would like to enjoy the challenge and improve my guessing skills.
+- As an existing user, I would like hints that help without giving too much away.
+- As an existing user, I would like the game to feel smooth and easy every time.
+- As an existing user, I would like to enjoy the challenge and improve my guessing skills.
 
 ### Typography 
 
@@ -71,7 +71,7 @@ Together, these fonts help create the right mood—one that feels like you're st
 | Bright Red      | #A40000 | Brighter red to highlight urgent actions.             |
 | Gold            | #FFD700 | Gold for important highlights and clues.              |
 | Very Light Grey | #F5F5F5 | Light text color for easy reading on dark background. |
-|                 |
+
 
 <img src="assets/images/color.png">
 
@@ -85,17 +85,16 @@ Together, these fonts help create the right mood—one that feels like you're st
 
 ### Existing Features
 | Feature                           | Description                                                      | Screenshot                                      |
-| --------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------- |
-| Home Page                         | Welcomes players with the game title and a mysterious tagline.   | ![Home Page](assets/images/home.png)            |
-| Instructions                      | Easy-to-follow steps explaining how to play, accessible anytime. | ![Instructions](assets/images/instructions.png) |
+| -------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------- |
+| Home Page                        | Welcomes players with the game title and a mysterious tagline.   | ![Home Page](assets/images/home.png)            |
+| Instructions                    | Easy-to-follow steps explaining how to play, accessible anytime. | ![Instructions](assets/images/instructions.png) |
 | Scrambled Letters and Underscores | Displays scrambled words and underscores to guide guesses.       | ![Gameplay](assets/images/scrambled.png)        |
-| Answer Box                        | Input field where players type their answers.                    | ![Guess Input](assets/images/answer.png)        |
-| Hints Used                        | Tracks how many hints have been used during the game.            | ![Hints Used](assets/images/hints-used.png)     |
-| No More Hints Message             | Alerts when all hints have been used up.                         | ![No More Hints](assets/images/no-hints.png)    |
-| Submit, Hint & Restart Buttons    | Lets players submit guesses to check correctness.                | ![Submit Button](assets/images/buttons.png)     |
-| Time’s Up! Message                | Notifies when time runs out and the round ends.                  | ![Times Up](assets/images/ended.png)            |
-| Score Display                     | Shows current progress or points during gameplay.                | ![Score Display](assets/images/scoretime.png)   |
-
+| Answer Box                      | Input field where players type their answers.                    | ![Guess Input](assets/images/answer.png)        |
+| Hints Used                     | Tracks how many hints have been used during the game.            | ![Hints Used](assets/images/hints-used.png)     |
+| No More Hints Message           | Alerts when all hints have been used up.                         | ![No More Hints](assets/images/no-hints.png)    |
+| Submit, Hint & Restart Buttons  | Allows players to submit guesses to check correctness.           | ![Submit Button](assets/images/buttons.png)     |
+| Time’s Up! Message              | Notifies when time runs out and the round ends.                  | ![Times Up](assets/images/ended.png)            |
+| Score Display                   | Shows current progress or points during gameplay.                | ![Score Display](assets/images/scoretime.png)   |
 
 ### Future Features
 
@@ -126,8 +125,8 @@ To create a copy of the repository in your own GitHub account:
 
 1. Log in to [GitHub](https://github.com/).
 2. Search for **[kulthoom12/word-quest](https://github.com/kulthoom12/word-quest)** repository.
-3. Click on the **Fork** button at the top-right corner and click select **Create a new fork**.
-4. Now, the repository will be copied to your GitHub account, and you can make changes without affecting the original one.
+3. Click the **Fork** button at the top-right corner and select **Create a new fork**.
+4. The repository will be copied to your GitHub account, and you can make changes without affecting the original one.
 
 ### Making a Local Clone
 
