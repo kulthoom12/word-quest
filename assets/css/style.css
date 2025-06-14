@@ -172,7 +172,7 @@ div#status {
 }
 
 /* tablets  */
-@media (min-width: 425) and (max-width: 992px) {
+@media (min-width: 425px) and (max-width: 992px) {
 
   h1,
   h2 {
@@ -201,7 +201,7 @@ div#status {
     width: 400px;
   }
 
-  buttons {
+  button {
     font-size: 20px;
     width: auto;
   }
