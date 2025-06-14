@@ -139,7 +139,7 @@ input#guess {
   text-align: center;
   max-width: 400px;
   width: 250px;
-} 
+}
 
 /* timer */
 span#timer,
@@ -163,8 +163,9 @@ div#status {
     flex-direction: column;
     align-items: center;
   }
-    #button-container button,
-    #button-container input#guess {
+
+  #button-container button,
+  #button-container input#guess {
     width: 90%;
     margin: 8px 0;
   }
@@ -173,10 +174,12 @@ div#status {
 /* tablets  */
 @media (min-width: 993px) and (max-width: 992px) {
 
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 40px;
   }
-    input#guess {
+
+  input#guess {
     width: 80%;
   }
 
@@ -189,7 +192,8 @@ div#status {
 /* laptops */
 @media (min-width: 993px) {
 
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 50px;
   }
 
