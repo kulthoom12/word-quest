@@ -36,10 +36,7 @@ h2 {
 
 #instructions {
   display: none;
-}
-
-div#instructions {
-  color: white;
+  color: var(--text-color);
 }
 
 #game {
@@ -55,7 +52,6 @@ div#scrambled.letters {
   font-family: var(--font-secondary);
   color: var(--text-color);
 }
-
 
 div#word.letters {
   letter-spacing: 10px;
@@ -101,7 +97,6 @@ button#restart {
   margin: 10px 5px;
   cursor: pointer;
   font-size: 20px;
-
 }
 
 /* Hint Button */
@@ -172,7 +167,7 @@ div#status {
 }
 
 /* tablets  */
-@media (min-width: 993px) and (max-width: 992px) {
+@media (min-width: 425) and (max-width: 992px) {
 
   h1,
   h2 {
