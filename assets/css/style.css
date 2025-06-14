@@ -72,7 +72,7 @@ div#message {
 /* Start Button */
 button#start {
   background-color: var(--button-color);
-  color: white;
+  color: var(--highlight-color);
   margin: 5px 5px;
   cursor: pointer;
   font-size: 20px;
@@ -81,8 +81,8 @@ button#start {
 /* Instruction Button */
 button#instructions-btn {
   background-color: var(--button-color);
-  color: white;
-  margin: 10px 5px;
+  color: var(--highlight-color);
+  margin: 5px;
   cursor: pointer;
   font-size: 20px;
 }
@@ -137,6 +137,7 @@ input#guess {
   margin: 0 auto;
 }
 
+
 /* timer */
 span#timer,
 span#score {
@@ -174,22 +175,30 @@ div#status {
 
 /* tablets  */
 @media (min-width: 993px) and (max-width: 992px) {
-    h1,
+
+  h1,
   h2 {
     font-size: 32px;
   }
 
   input#guess {
-    width: 90%;
+    width: 80%;
   }
 
   button {
-    width: 90%;
+    width: 80%;
     font-size: 18px;
   }
 }
+
+button#start,
+button#instructions-btn {
+  width: 200px;
+}
+
 /* laptops */
 @media (min-width: 993px) {
+
   h1,
   h2 {
     font-size: 50px;
@@ -205,3 +214,17 @@ div#status {
   }
 }
 
+/* submit, hint & restart buttons side by side */
+#button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#button-container button {
+  width:auto; 
+  min-width: 100px;
+  padding:12px 24px;
+  margin: 0 10px;
+}
