@@ -1,4 +1,5 @@
-### Content
+### Table of Content
+
 - [UX](#ux)
   - [New User Stories](#new-user-stories)
   - [Existing Users](#existing-users)
@@ -17,6 +18,7 @@
   - [Making a Local Clone](#making-a-local-clone)
 - [Tools and Technologies Used](#tools-and-technologies-used)
   - [Credits](#credits)
+
 
 **Word Quest** 
 
