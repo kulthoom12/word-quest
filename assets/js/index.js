@@ -16,7 +16,7 @@ const words = [
   "motive",
   "confession",
   "crime-scene",
-  "itnterrogate",
+  "interrogate",
   "betrayal",
   "footprint",
   "suspense",
@@ -58,7 +58,7 @@ const words = [
   "verdict",
   "informer",
   "undercover",
-  "Warrant"
+  "warrant"
 ];
 
 // important vairables durig the game.
@@ -98,7 +98,7 @@ restartBtn.classList.add("hidden");
 function shuffleWord(word) {
 	let array = word.split("");
 	for (let i = array.length - 1; i > 0; i--) {
-		let j = Math.floor(Math.random() * i + 1);
+		let j = Math.floor(Math.random() * (i + 1));
 		[array[i], array[j]] = [array[j], array[i]];
 	}
 	return array;
@@ -173,7 +173,7 @@ function startGame() {
 /**  Check guessed word and show hints if needed */
 function checkGuess() {
 	const guess = input.value.trim().toLowerCase();
-	const answer = currentWord.toLocaleLowerCase();
+	const answer = currentWord.toLowerCase();
 	if (guess !== answer) {
 		message.textContent = "Wrong! Try again.";
 	} else {
