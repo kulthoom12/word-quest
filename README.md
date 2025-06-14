@@ -1,27 +1,32 @@
-# Word Quest
+### Content
+- [UX](#ux)
+  - [New User Stories](#new-user-stories)
+  - [Existing Users](#existing-users)
+  - [Typography](#typography)
+  - [Color Scheme](#color-scheme)
+- [Wireframes](#wireframes)
+  - [Mobile](#mobile)
+  - [Tablet](#tablet)
+  - [Desktop](#desktop)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+  - [Future Features](#future-features)
+- [Deployment](#deployment)
+  - [GitHub Pages](#github-pages)
+  - [Forking the GitHub Repository](#forking-the-github-repository)
+  - [Making a Local Clone](#making-a-local-clone)
+- [Tools and Technologies Used](#tools-and-technologies-used)
+  - [Credits](#credits)
 
-- [Word Quest](#word-quest)
-  - [UX](#ux)
-    - [New User Stories](#new-user-stories)
-    - [Existing Users](#existing-users)
-    - [Typography](#typography)
-    - [Color Scheme](#color-scheme)
-  - [Wireframes](#wireframes)
-    - [Mobile](#mobile)
-    - [Tablet](#tablet)
-    - [Desktop](#desktop)
-  - [Features](#features)
-    - [Existing Features](#existing-features)
-    - [Future Features](#future-features)
-  - [Deployment](#deployment)
-    - [GitHub Pages](#github-pages)
-    - [Forking the GitHub Repository](#forking-the-github-repository)
-    - [Making a Local Clone](#making-a-local-clone)
-  - [Tools and Technologies Used](#tools-and-technologies-used)
-    - [Content](#content)
-    - [Credits](#credits)
+**Word Quest** 
 
-**Word Quest** is a fast-paced word puzzle with a mystery twist. Unscramble letters to reveal the hidden word before time runs out. Inspired by detective stories, it challenges your focus and quick thinking while keeping gameplay fun and suspenseful.
+I created this game as a fun and thrilling way to test your detective skills by solving mystery-themed scrambled words.
+
+On the main screen, you can press Start Game to dive into the challenge, or How to Play to read the instructions first.
+
+Each round gives you 60 seconds to decode a word. If you get stuck, you can use up to three hints. Type in your answer and hit submit — if you're right, you’ll earn points and move on to the next clue.
+
+It’s a fast-paced, brain-teasing game perfect for crime lovers and puzzle solvers alike!
 
 A live version of the project can be accessed here: [Word Quest](kulthoom12.github.io/Word-Quest/)
 
@@ -59,14 +64,14 @@ Together, these fonts help create the right mood—one that feels like you're st
 
 ### Color Scheme
 
-| Colour Name      | Hex      | Reason                                      |
-| ---------------- | -------- | ------------------------------------------- |
-| Very Dark Grey   | #1c1c1c  | Dark, moody background to set a mysterious tone. |
-| Dark Red         | #8B0000  | Deep red for a dramatic and intense feel.       |
-| Bright Red       | #A40000  | Brighter red to highlight urgent actions.       |
-| Gold             | #FFD700  | Gold for important highlights and clues.        |
-| Very Light Grey  | #F5F5F5  | Light text color for easy reading on dark background. |
-|
+| Colour Name     | Hex     | Reason                                                |
+| --------------- | ------- | ----------------------------------------------------- |
+| Very Dark Grey  | #1c1c1c | Dark, moody background to set a mysterious tone.      |
+| Dark Red        | #8B0000 | Deep red for a dramatic and intense feel.             |
+| Bright Red      | #A40000 | Brighter red to highlight urgent actions.             |
+| Gold            | #FFD700 | Gold for important highlights and clues.              |
+| Very Light Grey | #F5F5F5 | Light text color for easy reading on dark background. |
+|                 |
 
 <img src="assets/images/color.png">
 
@@ -79,17 +84,17 @@ Together, these fonts help create the right mood—one that feels like you're st
 ## Features
 
 ### Existing Features
-| Feature                     | Description                                                         | Screenshot                          |
-|-----------------------------|---------------------------------------------------------------------|-----------------------------------|
-| Home Page                   | Welcomes players with the game title and a mysterious tagline.      | ![Home Page](assets/images/home.png)      |
-| Instructions                | Easy-to-follow steps explaining how to play, accessible anytime.    | ![Instructions](assets/images/instructions.png)|
-| Scrambled Letters and Underscores | Displays scrambled words and underscores to guide guesses.      | ![Gameplay](assets/images/scrambled.png)        |
-| Answer Box    | Input field where players type their answers.                       | ![Guess Input](assets/images/answer.png)  |
-| Hints Used                  | Tracks how many hints have been used during the game.               | ![Hints Used](assets/images/hints-used.png)    |
-| No More Hints Message       | Alerts when all hints have been used up.                            | ![No More Hints](assets/images/no-hints.png)|
-| Submit, Hint & Restart Buttons             | Lets players submit guesses to check correctness.                   | ![Submit Button](assets/images/buttons.png)|
-| Time’s Up! Message          | Notifies when time runs out and the round ends.                     | ![Times Up](assets/images/ended.png)        |
-| Score Display               | Shows current progress or points during gameplay.                   | ![Score Display](assets/images/scoretime.png)      |
+| Feature                           | Description                                                      | Screenshot                                      |
+| --------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------- |
+| Home Page                         | Welcomes players with the game title and a mysterious tagline.   | ![Home Page](assets/images/home.png)            |
+| Instructions                      | Easy-to-follow steps explaining how to play, accessible anytime. | ![Instructions](assets/images/instructions.png) |
+| Scrambled Letters and Underscores | Displays scrambled words and underscores to guide guesses.       | ![Gameplay](assets/images/scrambled.png)        |
+| Answer Box                        | Input field where players type their answers.                    | ![Guess Input](assets/images/answer.png)        |
+| Hints Used                        | Tracks how many hints have been used during the game.            | ![Hints Used](assets/images/hints-used.png)     |
+| No More Hints Message             | Alerts when all hints have been used up.                         | ![No More Hints](assets/images/no-hints.png)    |
+| Submit, Hint & Restart Buttons    | Lets players submit guesses to check correctness.                | ![Submit Button](assets/images/buttons.png)     |
+| Time’s Up! Message                | Notifies when time runs out and the round ends.                  | ![Times Up](assets/images/ended.png)            |
+| Score Display                     | Shows current progress or points during gameplay.                | ![Score Display](assets/images/scoretime.png)   |
 
 
 ### Future Features
@@ -139,24 +144,22 @@ To download the project to your computer:
 
 ## Tools and Technologies Used
 
-| Source           | Link                                                                                          |
-| ----------------------- | --------------------------------------------------------------------------------------------- |
-| Fonts                   | [Google Fonts](https://fonts.google.com/)                                                    |
-| Color Palette Generator | [Colormind](http://colormind.io/)                                                            |
-| Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/)                                        |
+| Source                  | Link                                                  |
+| ----------------------- | ----------------------------------------------------- |
+| Fonts                   | [Google Fonts](https://fonts.google.com/)             |
+| Color Palette Generator | [Colormind](http://colormind.io/)                     |
+| Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/) |
 
-
-### Content
 
 ### Credits
 
 I would like to thank my tutor Robert Thompson and my mentor Lauren-Nicole for their support with completing this project.
 
 
-| Source                   | Link                                                                                                      |
-| ------------------------ | --------------------------------------------------------------------------------------------------------- |
+| Source                      | Link                                                                                                      |
+| --------------------------- | --------------------------------------------------------------------------------------------------------- |
 | Word Guessing Game Tutorial | [YouTube - Word Guessing Game](https://www.youtube.com/watch?v=JYVycJ2CXiI)                               |
-| JavaScript Crash Course  | [YouTube - Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk)                                             |
-| JavaScript Full Course   | [YouTube - Bro Code](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv) |
-| JavaScript Game Tutorial | [YouTube - Ali Aslan](https://www.youtube.com/watch?v=2wJKJRa9ncI)                                        |
-| Online Learning Platform | [Code Institute](https://learn.codeinstitute.net/dashboard)                                               |
+| JavaScript Crash Course     | [YouTube - Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk)                                             |
+| JavaScript Full Course      | [YouTube - Bro Code](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv) |
+| JavaScript Game Tutorial    | [YouTube - Ali Aslan](https://www.youtube.com/watch?v=2wJKJRa9ncI)                                        |
+| Online Learning Platform    | [Code Institute](https://learn.codeinstitute.net/dashboard)                                               |
