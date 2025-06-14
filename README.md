@@ -19,7 +19,6 @@
 - [Tools and Technologies Used](#tools-and-technologies-used)
   - [Credits](#credits)
 
-
 **Word Quest** 
 
 I created this game as a fun and thrilling way to test your detective skills by solving mystery-themed scrambled words.

@@ -6,7 +6,7 @@
 
 | Page               | Errors                | Changes Made              |
 |--------------------|--------------------------------|-------------------------------|
-| HTML  | ![Before](assets/images/html-before.png) | ![After](assets/images/html-after.png)    |
+| HTML  | ![Before](assets/images/testing/html-before.png) | ![After](assets/images/testing/html-after.png)    |
 
 </details>
 
@@ -17,7 +17,7 @@
 
 | Page                      | Errors                | Changes Made                 |
 |---------------------------|--------------------------------|--------------------------------|
-| CSS | ![Before](assets/images/css-before.png) | ![After](assets/images/css-after.png)  |
+| CSS | ![Before](assets/images/testing/css-before.png) | ![After](assets/images/testing/css-after.png)  |
 
 </details>
 
@@ -26,6 +26,11 @@
 
 <summary>Click here to view the Browser Performance</summary>
 
-
+| Browser        | Screenshots                          |
+|----------------|------------------------------------|
+| Google Chrome  | ![Google Chrome](assets/images/testing/chrome.png)       |
+| Mozilla Firefox| ![Mozilla Firefox](assets/images/testing/firefox.png)    |
+| Brave          | ![Brave](assets/images/testing/brave.png)                 |
+| Microsoft Edge | ![Microsoft Edge](assets/images/testing/ms.png)        |
 
 </details>
