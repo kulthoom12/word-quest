@@ -131,12 +131,15 @@ button:hover {
 
 /* Box for answer */
 input#guess {
-  padding: 16px 30px;
+  padding: 12px 16px;
   border-radius: 10px;
+  font-size: 20px;
   display: block;
   margin: 0 auto;
-}
-
+  text-align: center;
+  max-width: 400px;
+  width: 250px;
+} 
 
 /* timer */
 span#timer,
@@ -155,52 +158,38 @@ div#status {
   display: none;
 }
 
-/* responsiveness for small screen */
-@media (min-width: 424px) {
-
-  h1,
-  h2 {
-    font-size: 24px;
+@media (max-width: 425px) {
+  #button-container {
+    flex-direction: column;
+    align-items: center;
   }
-
-  input#guess {
+    #button-container button,
+    #button-container input#guess {
     width: 90%;
-  }
-
-  button {
-    width: 90%;
-    font-size: 16px;
+    margin: 8px 0;
   }
 }
 
 /* tablets  */
 @media (min-width: 993px) and (max-width: 992px) {
 
-  h1,
-  h2 {
-    font-size: 32px;
+  h1, h2 {
+    font-size: 40px;
   }
-
-  input#guess {
+    input#guess {
     width: 80%;
   }
 
   button {
-    width: 80%;
     font-size: 18px;
+    width: 80%;
   }
-}
-
-button#start,
-button#instructions-btn {
-  width: 200px;
 }
 
 /* laptops */
 @media (min-width: 993px) {
 
-  h1,
-  h2 {
+  h1, h2 {
     font-size: 50px;
   }
 
@@ -208,23 +197,8 @@ button#instructions-btn {
     width: 400px;
   }
 
-  button {
-    width: auto;
+  buttons {
     font-size: 20px;
+    width: auto;
   }
-}
-
-/* submit, hint & restart buttons side by side */
-#button-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-#button-container button {
-  width:auto; 
-  min-width: 100px;
-  padding:12px 24px;
-  margin: 0 10px;
 }
