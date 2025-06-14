@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=UnifrakturCook:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
 :root {
 
@@ -6,7 +6,7 @@
   --font-secondary: 'Cinzel Decorative';
   --background-color: #1c1c1c;
   --button-color: #8B0000;
-  --button-hover: #A40000; 
+  --button-hover: #A40000;
   --highlight-color: #FFD700;
   --text-color: #F5F5F5;
 }
@@ -38,6 +38,10 @@ h2 {
   display: none;
 }
 
+div#instructions {
+  color: white;
+}
+
 #game {
   display: none;
 }
@@ -52,9 +56,6 @@ div#scrambled.letters {
   color: var(--text-color);
 }
 
-div#instructions {
-  color: white;
-}
 
 div#word.letters {
   letter-spacing: 10px;
@@ -64,7 +65,7 @@ div#word.letters {
   color: var(--text-color);
 }
 
-div#message{
+div#message {
   color: var(--highlight-color);
 }
 
@@ -88,21 +89,19 @@ button#instructions-btn {
 
 /* Submit Button */
 button#submit {
-  background-color: var(--button-color);
-  color: white;
+  color: var(--highlight-color);
   margin: 10px 5px;
   cursor: pointer;
   font-size: 20px;
-  color: var(--highlight-color);
 }
 
 button#restart {
   background-color: var(--button-color);
-  color: white;
+  color: var(--highlight-color);
   margin: 10px 5px;
   cursor: pointer;
   font-size: 20px;
-  color: var(--highlight-color);
+
 }
 
 /* Hint Button */
@@ -118,7 +117,7 @@ button#hint {
 button {
   background-color: var(--button-color);
   border-radius: 10px;
-  transition: 0.3;
+  transition: 0.3s;
   padding: 15px 24px;
   font-family: var(--font-primary);
 }
@@ -139,16 +138,8 @@ input#guess {
 }
 
 /* timer */
-span#timer {
-  color: white;
-  font-size: 20px;
-  color: var(--highlight-color);
-  font-weight: bold;
-}
-
-/* score */
+span#timer,
 span#score {
-  color: white;
   font-size: 20px;
   color: var(--highlight-color);
   font-weight: bold;
@@ -162,3 +153,55 @@ div#status {
 .hidden {
   display: none;
 }
+
+/* responsiveness for small screen */
+@media (min-width: 424px) {
+
+  h1,
+  h2 {
+    font-size: 24px;
+  }
+
+  input#guess {
+    width: 90%;
+  }
+
+  button {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+
+/* tablets  */
+@media (min-width: 993px) and (max-width: 992px) {
+    h1,
+  h2 {
+    font-size: 32px;
+  }
+
+  input#guess {
+    width: 90%;
+  }
+
+  button {
+    width: 90%;
+    font-size: 18px;
+  }
+}
+/* laptops */
+@media (min-width: 993px) {
+  h1,
+  h2 {
+    font-size: 50px;
+  }
+
+  input#guess {
+    width: 400px;
+  }
+
+  button {
+    width: auto;
+    font-size: 20px;
+  }
+}
+
