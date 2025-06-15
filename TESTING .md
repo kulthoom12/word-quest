@@ -34,3 +34,15 @@
 | Microsoft Edge | ![Microsoft Edge](assets/images/testing/ms.png)        |
 
 </details>
+
+## Responsiveness 
+
+<details>
+<summary> Click here to see the responsivness of the game </summary>
+
+| Device  | Screenshot |
+|---------|------------|
+| Mobile  | ![Mobile Screenshot]() |
+| Tablet  | ![Tablet Screenshot]() |
+| Laptop  | ![Laptop Screenshot]() |
+</details>
