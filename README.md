@@ -95,15 +95,15 @@ Together, these fonts help create the right mood—one that feels like you're st
 ### Existing Features
 | Feature                           | Description                                                      | Screenshot                                      |
 | --------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------- |
-| Home Page                         | Welcomes players with the game title and a mysterious tagline.   | ![Home Page](assets/images/home.png)            |
+| Home Page                         | Welcomes players with the game title and a mysterious tagline.   | ![Home Page](assets/images/tagline.png)            |
 | Instructions                      | Easy-to-follow steps explaining how to play, accessible anytime. | ![Instructions](assets/images/instructions.png) |
-| Scrambled Letters and Underscores | Displays scrambled words and underscores to guide guesses.       | ![Gameplay](assets/images/scrambled.png)        |
+| Scrambled Letters and Underscores | Displays scrambled words and underscores to guide guesses.       | ![Gameplay](assets/images/scrambled-word.png)        |
 | Answer Box                        | Input field where players type their answers.                    | ![Guess Input](assets/images/answer.png)        |
-| Hints Used                        | Tracks how many hints have been used during the game.            | ![Hints Used](assets/images/hints-used.png)     |
-| No More Hints Message             | Alerts when all hints have been used up.                         | ![No More Hints](assets/images/no-hints.png)    |
-| Submit, Hint & Restart Buttons    | Allows players to submit guesses to check correctness.           | ![Submit Button](assets/images/buttons.png)     |
-| Time’s Up! Message                | Notifies when time runs out and the round ends.                  | ![Times Up](assets/images/ended.png)            |
-| Score Display                     | Shows current progress or points during gameplay.                | ![Score Display](assets/images/scoretime.png)   |
+| Hints Used                        | Tracks how many hints have been used during the game.            | ![Hints Used](assets/images/track-hints.png)     |
+| No More Hints Message             | Alerts when all hints have been used up.                         | ![No More Hints](assets/images/no-more-hints.png)    |
+| Submit, Hint & Restart Buttons    | Allows players to submit guesses to check correctness.           | ![Submit Button](assets/images/submit.png)     |
+| Time’s Up! Message                | Notifies when time runs out and the round ends.                  | ![Times Up](assets/images/times-up.png)            |
+| Score Display                     | Shows current progress or points during gameplay.                | ![Score Display](assets/images/score.png)   |
 
 ### Future Features
 
@@ -140,7 +140,7 @@ I would like to thank my tutor Robert Thompson and my mentor Lauren-Nicole for t
 
 ## Testing 
 
-Click here to view the [TESTING.md](TESTING.md) document.
+Click here to open the [TESTING.md](TESTING.md) file.
 
 ## Deployment
 
