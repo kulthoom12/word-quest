@@ -1,25 +1,17 @@
 ### Table of Content
 
 - [UX](#ux)
-  - [New User Stories](#new-user-stories)
-  - [Existing Users](#existing-users)
-  - [Typography](#typography)
-  - [Color Scheme](#color-scheme)
+- [User Stories](#new-user-stories)
 - [Wireframes](#wireframes)
-  - [Mobile](#mobile)
-  - [Tablet](#tablet)
-  - [Desktop](#desktop)
 - [Features](#features)
-  - [Existing Features](#existing-features)
-  - [Future Features](#future-features)
+- [Technologies Used](#technologies-used)
+- [Credits](#credits)
+- [Meida](#meida)
+- [Testing](#testing)
 - [Deployment](#deployment)
-  - [GitHub Pages](#github-pages)
-  - [Forking the GitHub Repository](#forking-the-github-repository)
-  - [Making a Local Clone](#making-a-local-clone)
-- [Tools and Technologies Used](#tools-and-technologies-used)
-  - [Credits](#credits)
+- [Acknowledgements](#Acknowledgements)
 
-**Word Quest** 
+# Word Quest
 
 I created this game as a fun and thrilling way to test your detective skills by solving mystery-themed scrambled words.
 
@@ -32,6 +24,37 @@ It’s a fast-paced, brain-teasing game perfect for crime lovers and puzzle solv
 A live version of the project can be accessed here: [Word Quest](kulthoom12.github.io/Word-Quest/)
 
 ## UX
+
+### Target Audeiance 
+### How to play
+### Game Flow 
+
+### Color Scheme
+
+| Colour Name     | Hex     | Reason                                                |
+| --------------- | ------- | ----------------------------------------------------- |
+| Very Dark Grey  | #1c1c1c | Dark, moody background to set a mysterious tone.      |
+| Dark Red        | #8B0000 | Deep red for a dramatic and intense feel.             |
+| Bright Red      | #A40000 | Brighter red to highlight urgent actions.             |
+| Gold            | #FFD700 | Gold for important highlights and clues.              |
+| Very Light Grey | #F5F5F5 | Light text color for easy reading on dark background. |
+
+
+<img src="assets/images/color.png">
+
+### Typography 
+
+For Word Quest, I chose two fonts that really help bring the mystery and crime theme to life.
+
+**Primary Font – Roboto Slab**
+
+Roboto Slab is used throughout the main parts of the game—like instructions, buttons, and gameplay text. It’s clean, easy to read, and has a slightly serious tone, which fits well with the idea of solving crimes. It reminds you a bit of old police files or typewritten reports, helping to set the scene.
+
+**Secondary Font – Cinzel Decorative**
+
+This one’s used for headings and titles. Cinzel Decorative has a dramatic and slightly vintage feel, which adds to the mystery. It makes you think of something secretive or hidden, like an unsolved case or a mysterious letter.
+
+Together, these fonts help create the right mood—one that feels like you're stepping into a detective story, but still keeps everything clear and readable while playing.
 
 ### New User Stories
 
@@ -49,32 +72,7 @@ A live version of the project can be accessed here: [Word Quest](kulthoom12.gith
 - As an existing user, I would like the game to feel smooth and easy every time.
 - As an existing user, I would like to enjoy the challenge and improve my guessing skills.
 
-### Typography 
 
-For Word Quest, I chose two fonts that really help bring the mystery and crime theme to life.
-
-**Primary Font – Roboto Slab**
-
-Roboto Slab is used throughout the main parts of the game—like instructions, buttons, and gameplay text. It’s clean, easy to read, and has a slightly serious tone, which fits well with the idea of solving crimes. It reminds you a bit of old police files or typewritten reports, helping to set the scene.
-
-**Secondary Font – Cinzel Decorative**
-
-This one’s used for headings and titles. Cinzel Decorative has a dramatic and slightly vintage feel, which adds to the mystery. It makes you think of something secretive or hidden, like an unsolved case or a mysterious letter.
-
-Together, these fonts help create the right mood—one that feels like you're stepping into a detective story, but still keeps everything clear and readable while playing.
-
-### Color Scheme
-
-| Colour Name     | Hex     | Reason                                                |
-| --------------- | ------- | ----------------------------------------------------- |
-| Very Dark Grey  | #1c1c1c | Dark, moody background to set a mysterious tone.      |
-| Dark Red        | #8B0000 | Deep red for a dramatic and intense feel.             |
-| Bright Red      | #A40000 | Brighter red to highlight urgent actions.             |
-| Gold            | #FFD700 | Gold for important highlights and clues.              |
-| Very Light Grey | #F5F5F5 | Light text color for easy reading on dark background. |
-
-
-<img src="assets/images/color.png">
 
 ## Wireframes
 
@@ -105,6 +103,34 @@ Together, these fonts help create the right mood—one that feels like you're st
 - **High Score Tracking**  
   The game will keep track of top scores so players can aim to beat their personal best.
 
+
+## Technologies Used
+
+| Source                  | Link                                                  |
+| ----------------------- | ----------------------------------------------------- |
+| Fonts                   | [Google Fonts](https://fonts.google.com/)             |
+| Color Palette Generator | [Colormind](http://colormind.io/)                     |
+| Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/) |
+
+
+### Credits
+
+I would like to thank my tutor Robert Thompson and my mentor Lauren-Nicole for their support with completing this project.
+
+
+| Source                      | Link                                                                                                      |
+| --------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Word Guessing Game Tutorial | [YouTube - Word Guessing Game](https://www.youtube.com/watch?v=JYVycJ2CXiI)                               |
+| JavaScript Crash Course     | [YouTube - Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk)                                             |
+| JavaScript Full Course      | [YouTube - Bro Code](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv) |
+| JavaScript Game Tutorial    | [YouTube - Ali Aslan](https://www.youtube.com/watch?v=2wJKJRa9ncI)                                        |
+| Online Learning Platform    | [Code Institute](https://learn.codeinstitute.net/dashboard)                                               |
+
+## Meida
+
+## Testing 
+
+Click here to view the [TESTING.md](TESTING.md).
 ## Deployment
 
 ### GitHub Pages
@@ -141,25 +167,3 @@ To download the project to your computer:
 6. Type this command and hit Enter:
    ```bash
    git clone https://github.com/kulthoom12/word-quest
-
-## Tools and Technologies Used
-
-| Source                  | Link                                                  |
-| ----------------------- | ----------------------------------------------------- |
-| Fonts                   | [Google Fonts](https://fonts.google.com/)             |
-| Color Palette Generator | [Colormind](http://colormind.io/)                     |
-| Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/) |
-
-
-### Credits
-
-I would like to thank my tutor Robert Thompson and my mentor Lauren-Nicole for their support with completing this project.
-
-
-| Source                      | Link                                                                                                      |
-| --------------------------- | --------------------------------------------------------------------------------------------------------- |
-| Word Guessing Game Tutorial | [YouTube - Word Guessing Game](https://www.youtube.com/watch?v=JYVycJ2CXiI)                               |
-| JavaScript Crash Course     | [YouTube - Mosh](https://www.youtube.com/watch?v=W6NZfCO5SIk)                                             |
-| JavaScript Full Course      | [YouTube - Bro Code](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv) |
-| JavaScript Game Tutorial    | [YouTube - Ali Aslan](https://www.youtube.com/watch?v=2wJKJRa9ncI)                                        |
-| Online Learning Platform    | [Code Institute](https://learn.codeinstitute.net/dashboard)                                               |
