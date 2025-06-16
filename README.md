@@ -26,8 +26,16 @@ A live version of the project can be accessed here: [Word Quest](kulthoom12.gith
 ## UX
 
 ### Target Audeiance 
+
+This word guess game is for anyone who enjoys a fun and easy word puzzle. It’s great for teens and adults looking to challenge their vocabulary or just have a quick, entertaining way to pass the time. You can play it on your phone, tablet, or computer, so it’s perfect for students, casual gamers, or anyone learning a new language.
+
 ### How to play
+
+Getting started is easy! Just hit the Start Game button, and you’ll see a scrambled word appear. Your job is to figure out what the word is and type it in, then press Submit to check your answer. If you’re stuck, don’t worry—you can click the Hint button to reveal a letter, but use it wisely because you only get three hints per word. If you want to try again or start fresh, just hit the Restart button. Have fun guessing and see how many words you can solve before time runs out!
+
 ### Game Flow 
+
+When you start the game, you’ll see a scrambled word on the screen. Your goal is to figure out what the word is by guessing the right letters. If you get stuck, don’t worry—you can use hints to help you out. Once you think you’ve got it, just submit your answer. If you’re right, the game moves on to the next word and the fun continues. If not, you can try again or restart whenever you want. It’s an easy, relaxed flow that makes playing enjoyable without any stress.
 
 ### Color Scheme
 
@@ -127,7 +135,6 @@ I would like to thank my tutor Robert Thompson and my mentor Lauren-Nicole for t
 | Online Learning Platform    | [Code Institute](https://learn.codeinstitute.net/dashboard)                                               |
 
 ## Meida
-
 
 ## Testing 
 
