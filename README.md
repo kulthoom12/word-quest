@@ -41,6 +41,8 @@ If you make a mistake, you can try again or hit **Restart** at any time. The gam
 
 ### Color Scheme
 
+<details> <summary> Click here to view the color scheme table </summary>
+
 | Colour Name     | Hex     | Reason                                                |
 | --------------- | ------- | ----------------------------------------------------- |
 | Very Dark Grey  | #1c1c1c | Dark, moody background to set a mysterious tone.      |
@@ -49,8 +51,8 @@ If you make a mistake, you can try again or hit **Restart** at any time. The gam
 | Gold            | #FFD700 | Gold for important highlights and clues.              |
 | Very Light Grey | #F5F5F5 | Light text color for easy reading on dark background. |
 
-
 <img src="assets/images/color.png">
+</details>
 
 ### Typography 
 
@@ -93,6 +95,9 @@ Together, these fonts help create the right mood—one that feels like you're st
 ## Features
 
 ### Existing Features
+
+<details> <summary> Click here to view the table </summary>
+
 | Feature                          | Description                                                    | Screenshot                                      |
 | --------------------------------| -------------------------------------------------------------- | -----------------------------------------------|
 | Home Page                       | Welcomes players with the game title and a mysterious tagline.| ![Home Page](assets/images/tagline.png)        |
@@ -105,6 +110,8 @@ Together, these fonts help create the right mood—one that feels like you're st
 | Time’s Up! Message             | Notifies when time runs out and the round ends.                | ![Times Up](assets/images/times-up.png)         |
 | Score Display                 | Shows current progress or points during gameplay.              | ![Score Display](assets/images/score.png)       |
 
+</details>
+
 ### Future Features
 - **Difficulty Levels**  
   Players can choose between Easy, Medium, and Hard modes to match their skill level.
@@ -114,17 +121,21 @@ Together, these fonts help create the right mood—one that feels like you're st
 
 ## Technologies Used
 
+<details> <summary>Click here to view the table</summary>
+
 | Source                  | Link                                                  |
 | ----------------------- | ----------------------------------------------------- |
 | Fonts                   | [Google Fonts](https://fonts.google.com/)             |
 | Color Palette Generator | [Colormind](http://colormind.io/)                     |
 | Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/) |
 
+</details>
 
 ### Credits
 
 I would like to thank my tutor Robert Thompson and my mentor Lauren-Nicole for their support with completing this project.
 
+<details> <summary>Click here to view the table</summary>
 
 | Source                      | Link                                                                                                      |
 | --------------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -133,6 +144,8 @@ I would like to thank my tutor Robert Thompson and my mentor Lauren-Nicole for t
 | JavaScript Full Course      | [YouTube - Bro Code](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv) |
 | JavaScript Game Tutorial    | [YouTube - Ali Aslan](https://www.youtube.com/watch?v=2wJKJRa9ncI)                                        |
 | Online Learning Platform    | [Code Institute](https://learn.codeinstitute.net/dashboard)                                               |
+
+</details>
 
 ## Meida
 
