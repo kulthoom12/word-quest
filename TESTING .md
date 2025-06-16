@@ -18,7 +18,7 @@
 
 | Page | Errors                                           | Changes Made                                   |
 | ---- | ------------------------------------------------ | ---------------------------------------------- |
-| HTML | ![Before](assets/images/testing/html-before.png) | ![After](assets/images/testing/html-after.png) |
+| HTML | ![Before](word-quest/assets/images/testing/vaildator/html-before.png) | ![After](word-quest/assets/images/testing/vaildator/html-after.png) |
 
 </details>
 
@@ -79,12 +79,12 @@
 
 | **User Story**                                                                           | **Testing**                                                                                   | **Screenshot**                                                         |
 | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| As a new user, I would like to see a clear word so I know what the game is.              | Click "Start Game" and check if a scrambled word appears on screen.                           | ![Scrambled Word](assets/images/scrambled.png)                         |
+| As a new user, I would like to see a clear word so I know what the game is.              | Click "Start Game" and check if a scrambled word appears on screen.                           | ![Scrambled Word]()                         |
 | As a new user, I would like to see a Start Game button so I can begin playing easily.    | Confirm the Start Game button is visible and clickable when the game loads.                   | ![Start Button](assets/images/testing/testing-start.png)               |
 | As a new user, I would like to see an Instructions button to understand how to play.     | Click the Instructions button and confirm that clear guidance appears.                        | ![Instructions](assets/images/testing/testing-instructions.png)        |
 | As a new user, I would like to see a timer.                                              | Start a game and confirm the timer appears and begins counting down.                       | ![Timer](assets/images/testing/testing-timer.png)                      |
-| As a new user, I would like to see a hint button to help me if I get stuck.              | Press the Hint button and check that it reveals one random unrevealed letter.                 | ![Hint Button](assets/images/testing/testing-hint-revealed.png)        |
-| As a new user, I would like to see a restart button in case I want to play again.        | Complete the game and press Restart to ensure it resets everything.                  | ![Restart Button](assets/images/testing/testing-restart-button.png)    |
+| As a new user, I would like to see a hint button to help me if I get stuck.              | Press the Hint button and check that it reveals one random unrevealed letter.                 | ![Hint Button]()        |
+| As a new user, I would like to see a restart button in case I want to play again.        | Complete the game and press Restart to ensure it resets everything.                  | ![Restart Button]()    |
 | As an existing user, I would like hints that help without giving too much away.          | Use the Hint button multiple times to check that only three letters are revealed per use.     | ![Hint Result]()                  |
 | As an existing user, I would like to enjoy the challenge and improve my guessing skills. | Check that the game provides different scrambled words each round to encourage replayability. | ![Challenging Word](assets/images/testing/testing-challeging-word.png) |
 
