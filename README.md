@@ -64,6 +64,8 @@ This one’s used for headings and titles. Cinzel Decorative has a dramatic and 
 
 Together, these fonts help create the right mood—one that feels like you're stepping into a detective story, but still keeps everything clear and readable while playing.
 
+## User Stories 
+
 ### New User Stories
 
 - As a new user, I would like to see a clear word so I know what the game is.
