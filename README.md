@@ -6,7 +6,6 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Credits](#credits)
-- [Meida](#meida)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Acknowledgements](#Acknowledgements)
@@ -25,7 +24,7 @@ It’s a fast-paced, brain-teasing game perfect for crime lovers and puzzle enth
 
 ## UX
 
-### Target Audeiance 
+### Target Audience 
 
 This word guess game is for anyone who enjoys a fun and easy word puzzle. It’s great for teens and adults looking to challenge their vocabulary or just have a quick, entertaining way to pass the time. You can play it on your phone, tablet, or computer, so it’s perfect for students, casual gamers, or anyone learning a new language.
 
@@ -123,11 +122,14 @@ Together, these fonts help create the right mood—one that feels like you're st
 
 <details> <summary>Click here to view the table</summary>
 
-| Source                  | Link                                                  |
-| ----------------------- | ----------------------------------------------------- |
-| Fonts                   | [Google Fonts](https://fonts.google.com/)             |
-| Color Palette Generator | [Colormind](http://colormind.io/)                     |
-| Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/) |
+| Source                  | Link                                                      |
+|-------------------------|-----------------------------------------------------------|
+| Fonts                   | [Google Fonts](https://fonts.google.com/)                 |
+| Color Palette Generator | [Colormind](http://colormind.io/)                         |
+| Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/)     |
+| GitHub                  | [GitHub](https://github.com/)                             |
+| Chrome DevTools         | [Google Chrome DevTools](https://developer.chrome.com/)   |
+| Favicon Generator       | [favicons.io](https://favicons.io/)                       |
 
 </details>
 
@@ -146,8 +148,6 @@ I would like to thank my tutor Robert Thompson and my mentor Lauren-Nicole for t
 | Online Learning Platform    | [Code Institute](https://learn.codeinstitute.net/dashboard)                                               |
 
 </details>
-
-## Meida
 
 ## Testing 
 
