@@ -6,6 +6,9 @@
 - [Lighthouse Audit](#lighthouse-audit)
 - [User Story Testing](#user-story-testing)
 - [Testing Existing Features](#testing-existing-features)
+- [Bugs](#bugs)
+- [Unfixed Bugs](#unfixed-bugs)
+- [Javascript Testing](#javascript-testing)
 
 ## Code Validator
 
@@ -101,3 +104,12 @@
 | **Three Letters Per Word** | I used the Hint button up to three times during one word to confirm it shows one unrevealed letter each time (max of three). | ![Three Hints](assets/images/testing/existing-feature/three-hints.png)   |
 
 </details>
+
+## Bugs 
+
+
+## Unfixed Bugs 
+
+
+## Javascript Testing 
+
