@@ -1,5 +1,4 @@
 ## Table of Contents
-
 - [Table of Contents](#table-of-contents)
 - [Code Validator](#code-validator)
   - [HTML Testing](#html-testing)
@@ -14,7 +13,6 @@
 - [Javascript Testing](#javascript-testing)
 
 ## Code Validator
-
 ### HTML Testing
 <details>
 <summary>Click here to view HTML Testing</summary>
@@ -22,22 +20,18 @@
 | Page | Errors                                                     | Changes Made                                             |
 | ---- | ---------------------------------------------------------- | -------------------------------------------------------- |
 | HTML | ![Before](assets/images/testing/vaildator/html-before.png) | ![After](assets/images/testing/vaildator/html-after.png) |
-
 </details>
 
 ### CSS Testing
-
 <details>
 <summary>Click here to view CSS Testing</summary>
 
 | Page | Errors                                                    | Changes Made                                            |
 | ---- | --------------------------------------------------------- | ------------------------------------------------------- |
 | CSS  | ![Before](assets/images/testing/vaildator/css-before.png) | ![After](assets/images/testing/vaildator/css-after.png) |
-
 </details>
 
 ## Browser Performance
-
 <details>
 <summary>Click here to view the Browser Performance</summary>
 
@@ -47,11 +41,9 @@
 | Mozilla Firefox | ![Mozilla Firefox](assets/images/testing/browser/firefox.png) |
 | Brave           | ![Brave](assets/images/testing/browser/brave.png)             |
 | Microsoft Edge  | ![Microsoft Edge](assets/images/testing/browser/ms.png)       |
-
 </details>
 
 ## Responsiveness
-
 <details>
 <summary>Click here to see the responsiveness of the game</summary>
 
@@ -60,11 +52,9 @@
 | Mobile | ![Mobile Screenshot](assets/images/testing/responsiveness/mobile.png) |
 | Tablet | ![Tablet Screenshot](assets/images/testing/responsiveness/tablet.png) |
 | Laptop | ![Laptop Screenshot](assets/images/testing/responsiveness/laptop.png) |
-
 </details>
 
 ## Lighthouse Audit
-
 <details>
 <summary>Click here to see Lighthouse Audit results</summary>
 
@@ -72,11 +62,9 @@
 | ------- | ------------------------------------------------------------------------- | --------------- |
 | Desktop | ![Desktop Audit](assets/images/testing/lighthouse/lighthouse-desktop.png) | No changes made |
 | Mobile  | ![Mobile Audit](assets/images/testing/lighthouse/lighthouse-mobile.png)   | No changes made |
-
 </details>
 
 ## User Story Testing
-
 <details>
 <summary>Click here to see the User Story Testing</summary>
 
@@ -90,11 +78,9 @@
 | As a new user, I would like to see a restart button in case I want to play again.        | Complete the game and press Restart to ensure it resets everything.                           | ![Restart Button](assets/images/testing/user-story-testing/testing-restart-button.png)     |
 | As an existing user, I would like hints that help without giving too much away.          | Use the Hint button multiple times to check that only three letters are revealed per use.     | ![Hint Result](assets/images/testing/user-story-testing/testing-three-hints.png)           |
 | As an existing user, I would like to enjoy the challenge and improve my guessing skills. | Check that the game provides different scrambled words each round to encourage replayability. | ![Challenging Word](assets/images/testing/user-story-testing/testing-challenging-word.png) |
-
 </details>
 
 ## Testing Existing Features
-
 <details>
 <summary>Click here to see Testing of Existing Features</summary>
 
@@ -105,16 +91,13 @@
 | **Restart Button**         | I clicked the Restart button to confirm it resets the game to the beginning.                                                 | ![Restart](assets/images/testing/existing-feature/restart.png)           |
 | **Submit Button**          | I typed in a word and clicked Submit to check that the game accepts and checks the answer correctly.                         | ![Submit](assets/images/testing/existing-feature/submit.png)             |
 | **Three Letters Per Word** | I used the Hint button up to three times during one word to confirm it shows one unrevealed letter each time (max of three). | ![Three Hints](assets/images/testing/existing-feature/three-hints.png)   |
-
 </details>
 
 ## Bugs 
 
-## Unfixed Bugs 
-
+## Unfixed Bugs
 No bugs found to my knowledge.
 
-## Javascript Testing 
-
+## Javascript Testing
 The Javascript was tested with [JS Lint](https://www.jslint.com/)
 
