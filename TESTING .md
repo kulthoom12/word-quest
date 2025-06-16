@@ -1,9 +1,6 @@
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Code Validator](#code-validator)
-  - [HTML Testing](#html-testing)
-  - [CSS Testing](#css-testing)
 - [Browser Performance](#browser-performance)
 - [Responsiveness](#responsiveness)
 - [Lighthouse Audit](#lighthouse-audit)
