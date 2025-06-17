@@ -139,14 +139,14 @@ Together, these fonts help create the right mood—one that feels like you're st
 
 <details> <summary>Click here to view the table</summary>
 
-| Source                  | Link                                                      |
-|-------------------------|-----------------------------------------------------------|
-| Fonts                   | [Google Fonts](https://fonts.google.com/)                 |
-| Color Palette Generator | [Colormind](http://colormind.io/)                         |
-| Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/)     |
-| GitHub                  | [GitHub](https://github.com/)                             |
-| Chrome DevTools         | [Google Chrome DevTools](https://developer.chrome.com/)   |
-| Favicon Generator       | [favicons.io](https://favicons.io/)                       |
+| Source                  | Link                                                                 |
+|-------------------------|----------------------------------------------------------------------|
+| Fonts                   | [Google Fonts](https://fonts.google.com/)                            |
+| Color Palette Generator | [Colormind](http://colormind.io/)                                    |
+| Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/)                |
+| GitHub                  | [GitHub](https://github.com/)                                        |
+| Favicon Generator       | [favicons.io](https://favicons.io/)                                  |
+| JSHint Explanation      | [Stack Overflow – JSHint & const](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const) |
 
 </details>
 
