@@ -109,5 +109,11 @@
 No bugs found to my knowledge.
 
 ## Javascript Testing
-The Javascript was tested with [JS Lint](https://www.jslint.com/)
+<details> 
+<summary> Click here to view the JS Testing </summary>
 
+| **JavaScript Testing**                                           | **Screenshots**                                | **Changes Made**                                                            |
+| ---------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------------------------- |
+| Tested game functions: guessing, hints, timer, and word scramble | ![JS Testing](assets/images/testing/js/js.png) | Made the answer check case-insensitive; scrambled word shows capital letter |
+
+</details>
