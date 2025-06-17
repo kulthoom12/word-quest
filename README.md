@@ -16,9 +16,9 @@
 
 On the main screen, you can press **Start Game** to dive into the challenge, or **How to Play** to view the instructions first.
 
-Each round gives you 60 seconds to decode a scrambled word. If you get stuck, you can use up to three hints. Type in your answer and hit **Submit** — if you're correct, you'll earn points and move on to the next clue.
+Each round gives you 60 seconds to decode a scrambled word. If you get stuck, you can use up to three hints. Type in your answer and hit **Submit.** — if you're correct, you'll earn points and move on to the next clue.
 
-It’s a fast-paced, brain-teasing game perfect for crime lovers and puzzle enthusiasts alike!
+It’s a fast-paced, brain-teasing game perfect for crime, lovers and puzzle enthusiasts alike!
 
  You can click the link to view my live website: [Play Word Quest](https://kulthoom12.github.io/Word-Quest/)
 
@@ -59,7 +59,7 @@ For **Word Quest**, I chose two fonts that really help bring the mystery and cri
 
 **Primary Font – Roboto Slab**
 
-Roboto Slab is used throughout the main parts of the game—like instructions, buttons, and gameplay text. It’s clean, easy to read, and has a slightly serious tone, which fits well with the idea of solving crimes. It reminds you a bit of old police files or typewritten reports, helping to set the scene.
+Roboto Slab is used throughout the main parts of the game—like instructions, buttons, and gameplay text. It’s clean, easy to read, and has a slightly serious tone, which fits well with the idea of solving crimes. It reminds you a bit of old police files or typewritten reports, which help to set the scene.
 
 **Secondary Font – Cinzel Decorative**
 
@@ -71,7 +71,7 @@ Together, these fonts help create the right mood—one that feels like you're st
 
 ### New User Stories
 
-- As a new user, I would like to see a clear word so I know what the game is.
+- As a new user, I would like to see a clear title or description so I know what the game is about
 - As a new user, I would like to see a **Start Game** button so I can begin playing easily.
 - As a new user, I would like to see an **Instructions** button to understand how to play.
 - As a new user, I would like to see scrambled letters and a place to type my guess.
@@ -103,7 +103,7 @@ Together, these fonts help create the right mood—one that feels like you're st
 
 ### Desktop 
 
-<details> <summary> Click to view the Laptop Wireframes</summary>
+<details> <summary> Click to view the Desktop Wireframes</summary>
 <img src="assets/images/readme/wireframes/readme-laptop.png">
 
 </details>
@@ -122,16 +122,15 @@ Together, these fonts help create the right mood—one that feels like you're st
 | Answer Box                     | Input field where players type their answers.                  | ![Guess Input](assets/images/readme/answer.png)        |
 | Hints Used                    | Tracks how many hints have been used during the game.          | ![Hints Used](assets/images/readme/track-hints.png)    |
 | No More Hints Message          | Alerts when all hints have been used up.                       | ![No More Hints](assets/images/readme/no-more-hints.png)|
-| Submit, Hint & Restart Buttons | Allows players to submit guesses to check correctness.         | ![Submit Button](assets/images/readme/submit.png)      |
-| Time’s Up! Message             | Notifies when time runs out and the round ends.                | ![Times Up](assets/images/readme/times-up.png)         |
+| Submit, Hint & Restart Buttons |Allows players to submit guesses and check if they are correct.         | ![Submit Button](assets/images/readme/submit.png)      |
+| Time’s Up! Message             | Displays a message when time runs out and the round ends.                | ![Times Up](assets/images/readme/times-up.png)         |
 | Score Display                 | Shows current progress or points during gameplay.              | ![Score Display](assets/images/readme/score.png)       |
 
 </details>
 
 ### Future Features
 - **Difficulty Levels**  
-  Players can choose between Easy, Medium, and Hard modes to match their skill level.
-
+  Players will be able to choose between Easy, Medium, and Hard modes to match their skill level.
 - **High Score Tracking**  
   The game will track top scores, allowing players to aim to beat their personal best.
 
@@ -143,7 +142,7 @@ Together, these fonts help create the right mood—one that feels like you're st
 |-------------------------|----------------------------------------------------------------------|
 | Fonts                   | [Google Fonts](https://fonts.google.com/)                            |
 | Color Palette Generator | [Colormind](http://colormind.io/)                                    |
-| Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/)                |
+| Chrome Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/)                |
 | GitHub                  | [GitHub](https://github.com/)                                        |
 | Favicon Generator       | [favicons.io](https://favicons.io/)                                  |
 | JSHint Explanation      | [Stack Overflow – JSHint & const](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const) |
@@ -152,8 +151,7 @@ Together, these fonts help create the right mood—one that feels like you're st
 
 ### Credits
 
-I would like to thank my tutor Robert Thompson and my mentor Lauren-Nicole for their support with completing this project.
-
+I would like to thank my tutor, Robert Thompson, and my mentor, Lauren-Nicole, for their support
 <details> <summary>Click here to view the table</summary>
 
 | Source                      | Link                                                                                                      |
@@ -181,7 +179,7 @@ To deploy the website, follow these steps:
 3. Click on the **Settings** tab.
 4. In the **Code and automation** section, click **Pages**.
 5. Under **Build and deployment**, select the **main** branch.
-6. Click **Save**.
+6. Then click **Save**.
 
 The **Word Quest** website is hosted on GitHub Pages. You can view the live website [here](https://kulthoom12.github.io/word-quest).
 
