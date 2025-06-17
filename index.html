@@ -34,26 +34,27 @@
     </div>
 
     <!-- Game Container -->
+    <main id="game">
+        <div id="game">
+            <div id="game-controls" class="hidden">
+                <div id="status">
+                    <span id="timer">Timer 60s </span>
+                    <span id="score">Score: 0 </span>
+                </div>
+                <div id="scrambled" class="letters"></div>
+                <div id="word" class="letters"></div>
 
-    <div id="game">
-        <div id="game-controls" class="hidden">
-            <div id="status">
-                <span id="timer">Timer 60s </span>
-                <span id="score">Score: 0 </span>
+                <!-- submit, restart and hint buttons for the playable game -->
+                <div id="button-container">
+                    <input type="text" id="guess" placeholder="Type your answer here" aria-label="Type your guess">
+                    <button id="submit" aria-label="Submit your guess">Submit</button>
+                    <button id="hint" aria-label="Get a hint">Hint</button>
+                    <button id="restart" aria-label="Restart the game">Restart</button>
+                </div>
             </div>
-            <div id="scrambled" class="letters"></div>
-            <div id="word" class="letters"></div>
-
-            <!-- submit, restart and hint buttons for the playable game -->
-            <div id="button-container">
-                <input type="text" id="guess" placeholder="Type your answer here" aria-label="Type your guess">
-                <button id="submit" aria-label="Submit your guess">Submit</button>
-                <button id="hint" aria-label="Get a hint">Hint</button>
-                <button id="restart" aria-label="Restart the game">Restart</button>
-            </div>
+            <div id="message" aria-live="polite"></div>
         </div>
-        <div id="message" aria-live="polite"></div>
-    </div>
+    </main>
 
     <script src="assets/js/index.js"></script>
 </body>
