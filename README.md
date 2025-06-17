@@ -50,7 +50,7 @@ If you make a mistake, you can try again or hit **Restart** at any time. The gam
 | Gold            | #FFD700 | Gold for important highlights and clues.              |
 | Very Light Grey | #F5F5F5 | Light text color for easy reading on dark background. |
 
-<img src="assets/images/color.png">
+<img src="assets/images/readme/color.png">
 </details>
 
 ### Typography 
@@ -88,8 +88,25 @@ Together, these fonts help create the right mood—one that feels like you're st
 ## Wireframes
 
 ### Mobile 
+
+<details> <summary> Click to view the Mobile Wireframes</summary>
+<img src="assets/images/readme/wireframes/readme-mobile.png">
+
+</details>
+
 ### Tablet
+
+<details> <summary> Click to view the Tablet Wireframes</summary>
+<img src="assets/images/readme/wireframes/readme-tablet.png">
+
+</details>
+
 ### Desktop 
+
+<details> <summary> Click to view the Laptop Wireframes</summary>
+<img src="">
+
+</details>
 
 ## Features
 
@@ -99,15 +116,15 @@ Together, these fonts help create the right mood—one that feels like you're st
 
 | Feature                          | Description                                                    | Screenshot                                      |
 | --------------------------------| -------------------------------------------------------------- | -----------------------------------------------|
-| Home Page                       | Welcomes players with the game title and a mysterious tagline.| ![Home Page](assets/images/tagline.png)        |
-| Instructions                   | Easy-to-follow steps explaining how to play, accessible anytime.| ![Instructions](assets/images/instructions.png)|
-| Scrambled Letters and Underscores| Displays scrambled words and underscores to guide guesses.   | ![Gameplay](assets/images/scrambled-word.png)  |
-| Answer Box                     | Input field where players type their answers.                  | ![Guess Input](assets/images/answer.png)        |
-| Hints Used                    | Tracks how many hints have been used during the game.          | ![Hints Used](assets/images/track-hints.png)    |
-| No More Hints Message          | Alerts when all hints have been used up.                       | ![No More Hints](assets/images/no-more-hints.png)|
-| Submit, Hint & Restart Buttons | Allows players to submit guesses to check correctness.         | ![Submit Button](assets/images/submit.png)      |
-| Time’s Up! Message             | Notifies when time runs out and the round ends.                | ![Times Up](assets/images/times-up.png)         |
-| Score Display                 | Shows current progress or points during gameplay.              | ![Score Display](assets/images/score.png)       |
+| Home Page                       | Welcomes players with the game title and a mysterious tagline.| ![Home Page](assets/images/readme/tagline.png)        |
+| Instructions                   | Easy-to-follow steps explaining how to play, accessible anytime.| ![Instructions](assets/images/readme/instructions.png)|
+| Scrambled Letters and Underscores| Displays scrambled words and underscores to guide guesses.   | ![Gameplay](assets/images/readme/scrambled-word.png)  |
+| Answer Box                     | Input field where players type their answers.                  | ![Guess Input](assets/images/readme/answer.png)        |
+| Hints Used                    | Tracks how many hints have been used during the game.          | ![Hints Used](assets/images/readme/track-hints.png)    |
+| No More Hints Message          | Alerts when all hints have been used up.                       | ![No More Hints](assets/images/readme/no-more-hints.png)|
+| Submit, Hint & Restart Buttons | Allows players to submit guesses to check correctness.         | ![Submit Button](assets/images/readme/submit.png)      |
+| Time’s Up! Message             | Notifies when time runs out and the round ends.                | ![Times Up](assets/images/readme/times-up.png)         |
+| Score Display                 | Shows current progress or points during gameplay.              | ![Score Display](assets/images/readme/score.png)       |
 
 </details>
 
