@@ -104,7 +104,7 @@ Together, these fonts help create the right mood—one that feels like you're st
 ### Desktop 
 
 <details> <summary> Click to view the Laptop Wireframes</summary>
-<img src="">
+<img src="assets/images/readme/wireframes/readme-laptop.png">
 
 </details>
 
