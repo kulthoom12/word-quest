@@ -104,12 +104,9 @@ function shuffleWord(word) {
 }
 /** Display scrambled letters while game is on */
 function displayScrambled() {
-	let displayLetters = [...scrambledLetters];
-	if (displayLetters.length > 0) {
-		displayLetters[0] = displayLetters[0].toUpperCase();
-	}
-	scrambled.textContent = displayLetters.join(" ");
+	scrambled.textContent = scrambledLetters.join(" ");
 }
+
 
 /** shows where the correct letter is and blank for the others. */
 function displayWord() {
