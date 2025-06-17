@@ -94,6 +94,15 @@
 </details>
 
 ## Bugs 
+<details> <summary> click here to see the table <summary>
+
+| What was going wrong                                             | What I changed to fix it                                                                                                                                                                   | Screenshot                                                             |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| **The game wouldn't load properly**                              | I removed the `<main>` tags because they were stopping the game from appearing and running as expected.                                                                                    | ![Game Not Starting](assets/images/testing/bugs/game-not-starting.png) |
+| **The "How to Play" button wasn’t showing**                      | I had accidentally used the same ID for both the button and the instructions section. I gave the button a different ID (`instructions-btn`) to fix it.                                     | ![Button Missing](assets/images/testing/bugs/button-not-showing.png)   |
+| **Correct answers were marked wrong because of capital letters** | I made the scrambled word show a capital letter to look nicer, but the game now ignores uppercase or lowercase when checking answers — so players won’t get annoyed by typing caps or not. | ![Case Sensitivity](assets/images/testing/bugs/capital-letter.png)     |
+
+</details>
 
 ## Unfixed Bugs
 No bugs found to my knowledge.
