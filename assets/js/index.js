@@ -107,7 +107,6 @@ function displayScrambled() {
 	scrambled.textContent = scrambledLetters.join(" ");
 }
 
-
 /** shows where the correct letter is and blank for the others. */
 function displayWord() {
 	word.innerHTML = "";
