@@ -1,3 +1,5 @@
+<img src="assets/images/readme/responsiveness-all.png">
+
 ### Table of Content
 
 - [UX](#ux)
@@ -18,7 +20,7 @@ On the main screen, you can press **Start Game** to dive into the challenge, or 
 
 Each round gives you 60 seconds to decode a scrambled word. If you get stuck, you can use up to three hints. Type in your answer and hit **Submit.** — if you're correct, you'll earn points and move on to the next clue.
 
-It’s a fast-paced, brain-teasing game perfect for crime, lovers and puzzle enthusiasts alike!
+It’s a fast-paced, brain-teasing game perfect for crime-lovers and puzzle enthusiasts alike!
 
  You can click the link to view my live website: [Play Word Quest](https://kulthoom12.github.io/Word-Quest/)
 
@@ -68,6 +70,9 @@ This one’s used for headings and titles. Cinzel Decorative has a dramatic and 
 Together, these fonts help create the right mood—one that feels like you're stepping into a detective story, but still keeps everything clear and readable while playing.
 
 ## User Stories 
+
+Screenshots linked to user stories can be found in the [TESTING.md](TESTING.md).
+
 
 ### New User Stories
 
