@@ -3,7 +3,7 @@
 /**  Words that will be used in the game when playable. */
 import { words } from "./words.js";
 
-// important vairables durig the game.
+// important variables during the game.
 let currentWord = "";
 let scrambledLetters = [];
 let revealedLetters = [];
@@ -29,14 +29,12 @@ const gameControls = document.getElementById("game-controls");
 const gameContainer = document.getElementById("game");
 const startContainer = document.getElementById("start-container");
 
-// hide buttons initally
-
+// hide buttons initially
 submitBtn.classList.add("hidden");
 hintBtn.classList.add("hidden");
 restartBtn.classList.add("hidden");
 
 /** This is to shuffle the each word. */
-
 function shuffleWord(word) {
 	let array = word.split("");
 	for (let i = array.length - 1; i > 0; i--) {
@@ -62,7 +60,6 @@ function displayWord() {
 	}
 }
 /** reset the whole game*/
-
 function resetGame() {
 	score = 0;
 	timeLeft = 60;
@@ -84,6 +81,7 @@ function resetGame() {
 	gameContainer.style.display = "block";
 }
 
+/** Start a new round by picking a word and resetting the timer */
 function startRound() {
 	currentWord = words[Math.floor(Math.random() * words.length)];
 	scrambledLetters = shuffleWord(currentWord);
@@ -107,6 +105,7 @@ function startRound() {
 	}, 1000);
 }
 
+/** Starts game  */
 function startGame() {
 	resetGame();
 	startRound();
