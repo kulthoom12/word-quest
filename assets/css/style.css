@@ -65,6 +65,13 @@ div#message {
   color: var(--highlight-color);
 }
 
+button#submit:disabled {
+  background-color: gray !important;
+  cursor: not-allowed;
+  opacity: 0.6;
+  box-shadow: none;
+}
+
 /* Start Button */
 button#start {
   background-color: var(--button-color);
