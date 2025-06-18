@@ -10,7 +10,9 @@
 - [Testing Existing Features](#testing-existing-features)
 - [Bugs](#bugs)
 - [Unfixed Bugs](#unfixed-bugs)
-- [Javascript Testing](#javascript-testing)
+- [JavaScript Testing](#javascript-testing)
+  - [Automated Testing](#automated-testing)
+  - [Manual Testing](#manual-testing)
 
 ## Code Validator
 ### HTML Testing
@@ -19,7 +21,7 @@
 
 | Page | Errors                                                     | Changes Made                                             |
 | ---- | ---------------------------------------------------------- | -------------------------------------------------------- |
-| HTML | ![Before](assets/images/testing/vaildator/html-before.png) | ![After](assets/images/testing/vaildator/html-after.png) |
+| HTML | ![Before](assets/images/testing/validator/html-before.png) | ![After](assets/images/testing/validator/html-after.png) |
 </details>
 
 ### CSS Testing
@@ -28,7 +30,7 @@
 
 | Page | Errors                                                    | Changes Made                                            |
 | ---- | --------------------------------------------------------- | ------------------------------------------------------- |
-| CSS  | ![Before](assets/images/testing/vaildator/css-before.png) | ![After](assets/images/testing/vaildator/css-after.png) |
+| CSS  | ![Before](assets/images/testing/validator/css-before.png) | ![After](assets/images/testing/validator/css-after.png) |
 </details>
 
 ## Browser Performance
@@ -99,7 +101,7 @@
 
 | What was going wrong                                             | What I changed to fix it                                                                                                                                                                   | Screenshot                                                             |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
-| **The game wouldn't load properly**                              | I removed the `<main>` tags because they were stopping the game from appearing and running as expected.                                                                                    | ![Game Not Starting](assets\images\testing\bugs\game-not-starting.png) |
+| **The game wouldn't load properly**                              | I removed the `<main>` tags because they were stopping the game from appearing and running as expected.                                                                                    | ![Game Not Starting](assets/images/testing/bugs/game-not-starting.png) |
 | **The "How to Play" button wasn’t showing**                      | I had accidentally used the same ID for both the button and the instructions section. I gave the button a different ID (`instructions-btn`) to fix it.                                     | ![Button Missing](assets/images/testing/bugs/button-not-showing.png)   |
 | **Correct answers were marked wrong because of capital letters** | I made the scrambled word show a capital letter to look nicer, but the game now ignores uppercase or lowercase when checking answers — so players won’t get annoyed by typing caps or not. | ![Case Sensitivity](assets/images/testing/bugs/capital-letter.png)     |
 
@@ -108,12 +110,18 @@
 ## Unfixed Bugs
 No bugs found to my knowledge.
 
-## Javascript Testing
+## JavaScript Testing
 <details> 
-<summary> Click here to view the JS Testing </summary>
+<summary> Click here to view the JS Testing</summary>
 
-| **JavaScript Testing**                                           | **Screenshots**                                | **Changes Made**                                                            |
-| ---------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------------------------- |
-| Tested game functions: guessing, hints, timer, and word scramble | ![JS Testing](assets/images/testing/js/js.png) | Made the answer check case-insensitive; scrambled word shows capital letter |
+### Automated Testing
+No automated testing tools like Jest or Cypress were used. However, basic code quality checks were carried out using JSLint, which identified minor syntax issues. These were fixed to keep the code clean and readable.
+
+### Manual Testing
+All core JavaScript features were tested manually in the browser console to ensure they worked correctly.
+
+| **JavaScript Testing**                                           | **Screenshots**                                |
+| ---------------------------------------------------------------- | ---------------------------------------------- |
+| Tested game functions: guessing, hints, timer, and word scramble | ![JS Testing](assets/images/testing/js/js.png) |
 
 </details>
