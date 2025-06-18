@@ -119,17 +119,17 @@ Screenshots linked to user stories can be found in the [TESTING.md](TESTING.md).
 
 <details> <summary> Click here to view the table </summary>
 
-| Feature                          | Description                                                    | Screenshot                                      |
-| --------------------------------| -------------------------------------------------------------- | -----------------------------------------------|
-| Home Page                       | Welcomes players with the game title and a mysterious tagline.| ![Home Page](assets/images/readme/tagline.png)        |
-| Instructions                   | Easy-to-follow steps explaining how to play, accessible anytime.| ![Instructions](assets/images/readme/instructions.png)|
-| Scrambled Letters and Underscores| Displays scrambled words and underscores to guide guesses.   | ![Gameplay](assets/images/readme/scrambled-word.png)  |
-| Answer Box                     | Input field where players type their answers.                  | ![Guess Input](assets/images/readme/answer.png)        |
-| Hints Used                    | Tracks how many hints have been used during the game.          | ![Hints Used](assets/images/readme/track-hints.png)    |
-| No More Hints Message          | Alerts when all hints have been used up.                       | ![No More Hints](assets/images/readme/no-more-hints.png)|
-| Submit, Hint & Restart Buttons |Allows players to submit guesses and check if they are correct.         | ![Submit Button](assets/images/readme/submit.png)      |
-| Time’s Up! Message             | Displays a message when time runs out and the round ends.                | ![Times Up](assets/images/readme/times-up.png)         |
-| Score Display                 | Shows current progress or points during gameplay.              | ![Score Display](assets/images/readme/score.png)       |
+| Feature                           | Description                                                      | Screenshot                                               |
+| --------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------- |
+| Home Page                         | Welcomes players with the game title and a mysterious tagline.   | ![Home Page](assets/images/readme/tagline.png)           |
+| Instructions                      | Easy-to-follow steps explaining how to play, accessible anytime. | ![Instructions](assets/images/readme/instructions.png)   |
+| Scrambled Letters and Underscores | Displays scrambled words and underscores to guide guesses.       | ![Gameplay](assets/images/readme/scrambled-word.png)     |
+| Answer Box                        | Input field where players type their answers.                    | ![Guess Input](assets/images/readme/answer.png)          |
+| Hints Used                        | Tracks how many hints have been used during the game.            | ![Hints Used](assets/images/readme/track-hints.png)      |
+| No More Hints Message             | Alerts when all hints have been used up.                         | ![No More Hints](assets/images/readme/no-more-hints.png) |
+| Submit, Hint & Restart Buttons    | Allows players to submit guesses and check if they are correct.  | ![Submit Button](assets/images/readme/submit.png)        |
+| Time’s Up! Message                | Displays a message when time runs out and the round ends.        | ![Times Up](assets/images/readme/times-up.png)           |
+| Score Display                     | Shows current progress or points during gameplay.                | ![Score Display](assets/images/readme/score.png)         |
 
 </details>
 
@@ -145,13 +145,13 @@ Screenshots linked to user stories can be found in the [TESTING.md](TESTING.md).
 
 <details> <summary>Click here to view the table</summary>
 
-| Source                  | Link                                                                 |
-|-------------------------|----------------------------------------------------------------------|
-| Fonts                   | [Google Fonts](https://fonts.google.com/)                            |
-| Color Palette Generator | [Colormind](http://colormind.io/)                                    |
-| Chrome Developer Tools         | [Chrome DevTools](https://developer.chrome.com/docs/)                |
-| GitHub                  | [GitHub](https://github.com/)                                        |
-| Favicon Generator       | [favicons.io](https://favicons.io/)                                  |
+| Source                  | Link                                                                                                                                |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Fonts                   | [Google Fonts](https://fonts.google.com/)                                                                                           |
+| Color Palette Generator | [Colormind](http://colormind.io/)                                                                                                   |
+| Chrome Developer Tools  | [Chrome DevTools](https://developer.chrome.com/docs/)                                                                               |
+| GitHub                  | [GitHub](https://github.com/)                                                                                                       |
+| Favicon Generator       | [favicons.io](https://favicons.io/)                                                                                                 |
 | JSHint Explanation      | [Stack Overflow – JSHint & const](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const) |
 
 </details>
