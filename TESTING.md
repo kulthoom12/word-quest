@@ -8,7 +8,7 @@
 - [Lighthouse Audit](#lighthouse-audit)
 - [User Story Testing](#user-story-testing)
 - [Testing Existing Features](#testing-existing-features)
-- [Bugs](#bugs)
+- [Fixed Bugs](#fixed-bugs)
 - [Unfixed Bugs](#unfixed-bugs)
 - [JavaScript Testing](#javascript-testing)
   - [Automated Testing](#automated-testing)
@@ -95,7 +95,7 @@
 | **Three Letters Per Word** | I used the Hint button up to three times during one word to confirm it shows one unrevealed letter each time (max of three). | ![Three Hints](assets/images/testing/existing-feature/three-hints.png)   |
 </details>
 
-## Bugs 
+## Fixed Bugs  
 
 <details> <summary> click here to see the table </summary>
 
