@@ -90,7 +90,7 @@ Together, these fonts help create the right mood—one that feels like you're st
 ### Mobile 
 
 <details> <summary> Click to view the Mobile Wireframes</summary>
-<img src="assets/images/readme/wireframes/readme-mobile.png">
+<img src="assets/images/testing/responsiveness/mobile.png">
 
 </details>
 
@@ -129,10 +129,12 @@ Together, these fonts help create the right mood—one that feels like you're st
 </details>
 
 ### Future Features
+<details> <summary> Click here to veiw the future features</summary>
 - **Difficulty Levels**  
   Players will be able to choose between Easy, Medium, and Hard modes to match their skill level.
 - **High Score Tracking**  
   The game will track top scores, allowing players to aim to beat their personal best.
+</detials>
 
 ## Technologies Used
 
