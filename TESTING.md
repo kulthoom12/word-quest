@@ -123,6 +123,7 @@ Automated testing is the process of automatically checking code using tools or s
 
  Manual testing entails verifying that all of the website's functionalities function as intended.  I manually tested every feature of my project, including all of the buttons, navigation links, and game interactions, by launching it in a browser.
  Because it enables you to experience the website as a real user and identify any design or interaction flaws directly, this kind of testing is ideal for smaller projects.
+ 
 | **JavaScript Testing**                                           | **Screenshots**                                |
 | ---------------------------------------------------------------- | ---------------------------------------------- |
 | Tested game functions: guessing, hints, timer, and word scramble | ![JS Testing](assets/images/testing/js/js.png) |

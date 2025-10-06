@@ -90,6 +90,23 @@ Screenshots linked to user stories can be found in the [TESTING.md](TESTING.md).
 - As an existing user, I would like the game to feel smooth and easy every time.
 - As an existing user, I would like to enjoy the challenge and improve my guessing skills.
 
+## Development Cycle 
+
+1. Planning:
+I started by deciding on the main idea for my interactive website and what features I wanted to include. I researched similar projects to understand how to make my version more engaging and user-friendly. I also thought about the target audience and how they would interact with the website.
+
+2. Design:
+I created wireframes for mobile, tablet, and desktop layouts to plan where each element would go. I also chose my color scheme, fonts, and overall theme to keep the design consistent throughout the website.
+
+3. Implementation:
+I began building the website using HTML, CSS, and JavaScript. I first created the structure with HTML, styled it with CSS, and then added interactivity using JavaScript. During this stage, I committed changes regularly to GitHub with clear commit messages showing my progress.
+
+4. Testing:
+Once the main functionality was complete, I tested all features manually to ensure they worked properly. I checked the navigation links, responsiveness, button actions, and JavaScript functions. I also used JSLint to check my JavaScript code for syntax errors.
+
+5. Deployment:
+After successful testing, I deployed the website using GitHub Pages and verified that all pages and links worked correctly online. I also reviewed the design on different devices to confirm that the website remained responsive and accessible.
+
 ## Wireframes
 
 ### Mobile 
