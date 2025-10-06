@@ -110,7 +110,7 @@ button#restart {
 button#hint {
 
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   padding: 12px 20px;
   justify-content: center;
   background-color: var(--button-color);
@@ -120,10 +120,9 @@ button#hint {
   font-size: 20px;
 }
   button#hint img {
-    width: 24px; 
-    height: 24px;
+    width: 20px; 
+    height: 20px;
     vertical-align: middle;
-    top: -2px;
   }
 
 p {
