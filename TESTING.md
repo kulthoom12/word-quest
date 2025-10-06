@@ -115,11 +115,14 @@ No bugs found to my knowledge.
 <summary> Click here to view the JS Testing</summary>
 
 ### Automated Testing
-No automated testing tools like Jest or Cypress were used. However, basic code quality checks were carried out using JSLint, which identified minor syntax issues. These were fixed to keep the code clean and readable.
+
+Automated testing is the process of automatically checking code using tools or scripts.  It is helpful for large projects with several features that require testing and aids in the speedy discovery of bugs.
+ Although I didn't utilise fully automated testing tools like Jest or Cypress for my project, I did use JSLint to assess the quality of my JavaScript code.  It assisted me in finding minor syntactic errors, which I resolved to maintain the code's readability and cleanliness.
 
 ### Manual Testing
-All core JavaScript features were tested manually in the browser console to ensure they worked correctly.
 
+ Manual testing entails verifying that all of the website's functionalities function as intended.  I manually tested every feature of my project, including all of the buttons, navigation links, and game interactions, by launching it in a browser.
+ Because it enables you to experience the website as a real user and identify any design or interaction flaws directly, this kind of testing is ideal for smaller projects.
 | **JavaScript Testing**                                           | **Screenshots**                                |
 | ---------------------------------------------------------------- | ---------------------------------------------- |
 | Tested game functions: guessing, hints, timer, and word scramble | ![JS Testing](assets/images/testing/js/js.png) |
