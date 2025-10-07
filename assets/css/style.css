@@ -126,6 +126,7 @@ button img {
   vertical-align: middle;
   flex-shrink: 0;
 }
+
 p {
   color: var(--highlight-color);
   font-family: var(--font-secondary);
