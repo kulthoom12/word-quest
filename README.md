@@ -112,7 +112,7 @@ After successful testing, I deployed the website using GitHub Pages and verified
 ### Mobile 
 
 <details> <summary> Click to view the Mobile Wireframes</summary>
-<img src="assets/images/testing/responsiveness/mobile.png">
+<img src="assets/images/readme/mobile.png">
 
 </details>
 
