@@ -119,12 +119,13 @@ button#hint {
   cursor: pointer;
   font-size: 20px;
 }
-  button#hint img {
-    width: 20px; 
-    height: 20px;
-    vertical-align: middle;
-  }
 
+button img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
 p {
   color: var(--highlight-color);
   font-family: var(--font-secondary);
