@@ -178,6 +178,8 @@ After successful testing, I deployed the website using GitHub Pages and verified
 I would like to thank my tutor, Robert Thompson, and my mentor, Lauren-Nicole, for their support
 <details> <summary>Click here to view the table</summary>
 
+Certain elements of the word guessing game were developed with guidance from external tutorials and resources:
+
 | Source                      | Link                                                                                                      |
 | --------------------------- | --------------------------------------------------------------------------------------------------------- |
 | Word Guessing Game Tutorial | [YouTube - Word Guessing Game](https://www.youtube.com/watch?v=JYVycJ2CXiI)                               |
@@ -185,6 +187,8 @@ I would like to thank my tutor, Robert Thompson, and my mentor, Lauren-Nicole, f
 | JavaScript Full Course      | [YouTube - Bro Code](https://www.youtube.com/watch?v=Ihy0QziLDf0&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv) |
 | JavaScript Game Tutorial    | [YouTube - Ali Aslan](https://www.youtube.com/watch?v=2wJKJRa9ncI)                                        |
 | Online Learning Platform    | [Code Institute](https://learn.codeinstitute.net/dashboard)                                               |
+
+The rest of the code was developed by Ummekulsum Mussa.
 
 </details>
 
